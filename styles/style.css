@@ -64,8 +64,8 @@
 }
 
 .hero-container {
-    background: url(/images/hero-bg.png);
-    /* background: linear-gradient(241.67deg, #00AA8B -3.79%, #007D84 48.62%, #0086B0 89.38%); */
+    background-image:  linear-gradient(241.67deg, #00aa8b8c -3.79%, #007d8494 48.62%, #0087b0a6 89.38%),url(/images/hero-bg.png);
+    
 
 }
 
@@ -161,6 +161,11 @@
     font-weight: 600;
     cursor: pointer;
     color: #38484E;
+    display: flex;
+    align-items: center;
+}
+.buy-btn img{
+    margin-right: 4px;
 }
 
 .hero-visual {
