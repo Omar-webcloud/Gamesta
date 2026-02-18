@@ -127,7 +127,18 @@
     justify-content: center;
     align-items: center;
 }
-
+.box{
+    display: grid;
+    max-width: 500px;
+    justify-items: start;
+}
+.buy-section, .community{
+    display: grid;
+    justify-items: start;
+}
+.community{
+    padding-top: 40px;
+}
 .social-buttons button {
     background: transparent;
     border: 1px solid white;
