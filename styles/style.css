@@ -12,12 +12,26 @@
 @font-face {
     font-family: "Euclid Circular A";
     src: url(/fonts/Euclid-Circular-A-Regular.ttf) format("truetype");
-    src: url(/fonts/Euclid-Circular-A-Medium.ttf) format("truetype");
-    src: url(/fonts/Euclid-Circular-A-SemiBold.ttf) format("truetype");
-    src: url(/fonts/Euclid-Circular-A-Bold.ttf) format("truetype");
+  
+    /* src: url(/fonts/Euclid-Circular-A-SemiBold.ttf) format("truetype");
+    src: url(/fonts/Euclid-Circular-A-Bold.ttf) format("truetype"); */
 }
 
-
+@font-face {
+    font-family: "Euclid Circular A Medium";
+    src: url(/fonts/Euclid-Circular-A-Medium.ttf) format("truetype");
+    /* src: url(/fonts/Euclid-Circular-A-SemiBold.ttf) format("truetype");
+    src: url(/fonts/Euclid-Circular-A-Bold.ttf) format("truetype"); */
+}
+@font-face {
+    font-family: "Euclid Circular A Semibold";
+    src: url(/fonts/Euclid-Circular-A-SemiBold.ttf) format("truetype");
+   
+}
+@font-face {
+    font-family: "Euclid Circular A Bold";
+    src: url(/fonts/Euclid-Circular-A-Bold.ttf) format("truetype");
+}
 /* navbar */
 
 .navbar {
@@ -52,7 +66,7 @@
     padding-bottom: 12px;
     padding-left: 16px;
 
-    font-family: "Euclid Circular A", sans-serif;
+    font-family: "Euclid Circular A Medium", sans-serif;
     font-weight: 400;
     font-size: 13px;
     color: #01A590;
