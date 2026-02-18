@@ -65,6 +65,8 @@
 
 .hero-container {
     background: url(/images/hero-bg.png);
+    /* background: linear-gradient(241.67deg, #00AA8B -3.79%, #007D84 48.62%, #0086B0 89.38%); */
+
 }
 
 
@@ -89,13 +91,16 @@
 
 
 /* hero */
-
+.hero{
+    position: relative
+}
 .hero-content {
     max-width: 65%;
     color: white;
     text-align: center;
     display: grid;
     justify-content: center;
+    
 }
 
 .hero-content h1 {
@@ -156,13 +161,7 @@
     left: 183%;
 }
 
-.characters {
-    position: absolute;
-    right: -40px;
-    top: -120px;
-    width: 700px;
-    z-index: 3;
-}
+
 
 .hero-bottom-shape {
     position: absolute;
@@ -172,4 +171,69 @@
     height: 160px;
     background: white;
     clip-path: polygon(0 40%, 100% 0%, 100% 100%, 0% 100%);
+}
+.character1{
+    position: absolute;
+    z-index: 3;
+    top: 135px;
+    right: -500px;
+    width: 128px;
+    
+
+}
+.character2{
+    position: absolute;
+    z-index: 2;
+    top: -30px;
+    right: -650px;
+    width: 318px;
+}
+.character3{
+     position: absolute;
+    z-index: 2;
+    top: -160px;
+    right: -672px;
+    width: 218px;
+}
+.character4{
+      position: absolute;
+    z-index: 2;
+    top: -170.08px;
+    right: -750px;
+    width: 190px;
+}
+.character5{
+    position: absolute;
+    z-index: 2;
+    top: -140.9px;
+    right: -800px;
+    width: 118px;
+}
+.character6{
+     position: absolute;
+    z-index: 1;
+    top: -118px;
+    right: -900px;
+    width: 148px;
+}
+.character7{
+     position: absolute;
+    z-index: 1;
+    top: -160px;
+    right: -1050px;
+    width: 168px;
+}
+.character8{
+     position: absolute;
+    z-index: 2;
+    top: -1px;
+    right: -1165px;
+    width: 190px;
+}
+.character9{
+    position: absolute;
+    z-index: 1;
+    top: -1px;
+    right: -1215px;
+    width: 190px;
 }
