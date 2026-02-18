@@ -140,6 +140,7 @@
     margin-top: 16px;
     justify-content: center;
     align-items: center;
+    
 }
 .box{
     display: grid;
@@ -149,6 +150,9 @@
 .buy-section, .community{
     display: grid;
     justify-items: start;
+}
+.buy-section span, .community span{
+    font-family: "Euclid Circular A Medium", sans-serif;
 }
 .community{
     padding-top: 40px;
@@ -270,4 +274,7 @@
     top: 48px;
     right: -1215px;
     width: 190px;
+}
+button{
+     font-family: "Euclid Circular A Medium", sans-serif;
 }
