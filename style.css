@@ -164,6 +164,7 @@ nav {
     height: 732px;
     margin-top: -140px;
     z-index: 1;
+    background-color: #F5F9FA;
 }
 
 .hero-bg {
@@ -179,6 +180,7 @@ nav {
     top: 0;
     left: 0;
     z-index: 2;
+   
 }
 
 .hero-container {
@@ -357,3 +359,56 @@ nav {
 
 
 
+/* dApp */
+
+.dapp{
+   font-family: var(--font-neue-machina);
+font-weight: 900;
+font-size: 64px;
+line-height: 100%;
+letter-spacing: 10%;
+text-align: center;
+text-transform: uppercase;
+color: #273A41;
+padding-top: 70px;
+}
+.dapp-bg{
+    background-color: #F5F9FA;
+}
+.launch, .q4{
+    font-family: var(--font-Euclid);
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 16px;
+letter-spacing: 0%;
+background-color: #00B3E8;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+}
+.launch{
+    max-width: 154px;
+    max-height: 32px;
+    translate: 1290px -90px;
+    rotate: -5deg;
+}
+.q4{
+      max-width: 113px;
+    max-height: 32px;
+    translate: 1370px -95px;
+    rotate: -5deg;
+}
+
+.dapp-p{
+font-family: var(--font-abz);
+font-weight: 400;
+font-size: 24px;
+color: #273A41;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: center;
+max-width: 660px;
+justify-self: center;
+}
