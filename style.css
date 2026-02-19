@@ -677,3 +677,38 @@ color: #38484E;
 .play-bg{
    height: 150px;
 }
+
+.play-2-card-container{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    position: relative;
+     padding-top:50px;
+     justify-self: center;
+     gap: 100px;
+}
+.play-card{
+     display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    max-width: 490px;
+}
+
+.play-title{
+     font-family: var(--font-neue-machina);
+font-weight: 800;
+font-size: 28px;
+color: #00B3E8;
+line-height: 100%;
+letter-spacing: 0%;
+margin-top: 0;
+margin-bottom: 12px;
+}
+.ad-p-1{
+    font-family: var(--font-abz);
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+letter-spacing: 0%;
+color: #38484E;
+}
