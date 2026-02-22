@@ -946,7 +946,8 @@ nav {
     transform: rotate(-6deg);
     margin: 0;
     padding: 1px;
-    max-width: 575px;
+   
+    
 }
 
 .gsg-token-text-line-one {
@@ -954,18 +955,23 @@ nav {
     position: relative;
     right: 341px;
     top: 30px;
-
+    max-width: 400px;
+     text-align: center;
 }
 
 .gsg-token-text-line-two {
     position: relative;
     right: 157px;
-    bottom: -10px;
+    bottom: -5px;
+     max-width: 500px;
+     text-align: center;
 }
 
 .gsg-token-text-line-three {
     position: relative;
-    bottom: 7px;
+    bottom: 12px;
+     max-width: 505px;
+      text-align: center;
 }
 
 .gsg-token-paragraph-secondary {
