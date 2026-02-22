@@ -1144,3 +1144,14 @@ text-align: center;
 .agency-button-container{
     justify-self: center;
 }
+.agency-decoration-svg-top{
+    position: relative;
+    top: -230px;
+    left: 330px;
+}
+
+.agency-decoration-svg-bottom{
+    position: relative;
+    left: 1208px;
+    bottom: 270px;
+}
