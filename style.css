@@ -1205,3 +1205,52 @@ letter-spacing: 0%;
 color: #38484E; 
 padding-left: 10px;
 }
+.incubation-decoration-svg{
+    position: relative;
+    top: 310px;
+    left: 210px;
+}
+
+/* gamex */
+.black-container{
+    background-color: #1B1F21;
+    position: relative;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 14%, 100% 88%, 44% 93%, 0 100%);
+}
+.black-bg{
+    /* background-color: #1B1F21; */
+}
+.card-img{
+    width: 30%;
+    position: relative;
+    left: 1140px;
+    bottom: -27px;
+    z-index: 1;
+
+}
+.black-gamex-title-primary{
+    position: relative;
+    left: 350px;
+    top: 158px;
+    font-family: var(--font-neue-machina-normal);
+    font-weight: 500;
+    font-size: 112px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    transform: rotate(-6deg);
+    width: fit-content;
+}
+
+.black-gamex-title-secondary{
+     position: relative;
+    left: 350px;
+    top: 58px;
+    font-family: var(--font-neue-machina-normal);
+    font-weight: 500;
+    font-size: 112px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    transform: rotate(-6deg);
+    width: fit-content;
+}
