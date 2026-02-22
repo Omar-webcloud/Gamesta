@@ -1155,3 +1155,53 @@ text-align: center;
     left: 1208px;
     bottom: 270px;
 }
+
+/* incubation */
+.incubation-section-title{
+    text-align: center;
+    color: #273A41;
+    font-family: var(--font-neue-machina-normal);
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 0;
+
+}
+.incubation-content{
+    justify-self: center;
+}
+.incubation-description-paragraph{
+    color: #273A41;
+    font-family: var(--font-abz);
+font-weight: 400;
+font-size: 24px;
+line-height: 140%;
+letter-spacing: 0%;
+max-width: 870px;
+justify-self: center;
+}
+.incubation-services-heading{
+    color: #38484E;
+    font-family: var(--font-abz);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0%;
+
+}
+.tick-list{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 24px 75px;
+}
+.tick-list li{
+    list-style:url(images/blue-tick.png);
+    font-family: var(--font-abz);
+    font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+letter-spacing: 0%;
+color: #38484E; 
+padding-left: 10px;
+}
