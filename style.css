@@ -1655,7 +1655,8 @@ letter-spacing: 10%;
 text-transform: uppercase;
 margin: 0;
 margin-bottom: 46px;
-
+color: #273A41;
+width: 294px;
 }
 
 .advisor-card-container{
@@ -1664,4 +1665,14 @@ margin-bottom: 46px;
 }
 .advisor-card{
     max-width: 250px;
+}
+
+.partner{
+ padding-left: 132px;
+ margin-bottom: 60px;
+}
+.partner-icon{
+    display: grid;
+    grid-template-columns: repeat(6, 170px);
+    gap: 23px 32px;
 }
