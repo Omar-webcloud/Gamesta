@@ -1445,393 +1445,3251 @@ nav {
 }
 
 
-/* technical */
 
-.technical-container{
-    padding-left: 123px;
+/* Technical Roadmap */
+.technical-container {
+    max-width: 1174px;
+    padding: 0 133px 0 133px;
+    margin: 0 auto;
 }
 
-.technical-title{
+.technical-card-container {
+    display: flex;
+    flex-wrap: wrap;  
+    
+    justify-content: flex-start; 
+}
+
+.tech-card {
+    flex: 1 1 calc(29% - 16px); 
+    box-sizing: border-box;     
+    min-width: 120px;           
+}
+
+
+
+
+.technical-card-container > .roadmap-connection-svg-one,
+.technical-card-container > .roadmap-connection-svg-two,
+.technical-card-container > .roadmap-connection-svg-three,
+.technical-card-container > .roadmap-connection-svg-four,
+.technical-card-container > .roadmap-connection-svg-five,
+.technical-card-container > .roadmap-connection-svg-six,
+.technical-card-container > .roadmap-connection-svg-seven,
+.technical-card-container > .roadmap-connection-svg-eight {
+    flex: 0 0 auto; 
+    align-self: center; 
+}
+
+.roadmap-connection-svg-one {
+    width: 97px;
+   
+    top: 50%;
+    right: -29%;
+}
+
+.roadmap-connection-svg-two {
+    width: 84px;
+   
+    top: 50%;
+    right: -28%;
+}
+
+.roadmap-connection-svg-four {
+    
+    width: 84px;
+    top: 50%;
+    right: -27%;
+}
+
+.roadmap-connection-svg-five {
+
+    top: 50%;
+    right: -27%;
+}
+
+.roadmap-connection-svg-six {
+
+    width: 1090px;
+    margin-top: -4.5%;
+    clip-path: polygon(71% 21%, 71% 0, 100% 0, 100% 100%, 80% 100%, 20% 100%, 0 100%, 0% 20%);
+}
+
+.roadmap-connection-svg-seven {
+ 
+    top: 50%;
+    right: -27%;
+}
+
+.roadmap-connection-svg-eight {
+    
+    top: 50%;
+    right: -27%;
+}
+
+.roadmap-connection-svg-three {
+
+    width: 1090px;
+    bottom: -84%;
+    left: -232%;
+}
+
+.technical-title {
     font-family: var(--font-neue-machina);
     font-weight: 900;
+    font-style: Black;
     font-size: 36px;
     line-height: 100%;
     letter-spacing: 10%;
     text-transform: uppercase;
-    color: #273A41;
+    color: var(--font-primary-font-color);
     margin-bottom: 60px;
 }
-.technical-roadmap-quarter{
+
+.technical-roadmap-quarter {
+    width: 126px;
     background: #00B3E8;
-    max-width: 170px;
-    padding: 18px;
-    border-top-left-radius: 12.97px;
-    border-top-right-radius: 12.97px;
-    font-family: Neue Machina;
+    margin: 0;
+    font-family: var(--font-neue-machina);
     font-weight: 900;
+    font-style: Black;
     font-size: 24px;
     line-height: 110.00000000000001%;
     letter-spacing: 10%;
     vertical-align: middle;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin: 0;
+    text-align: center;
+    padding: 17.34px 20.5px 11.66px 20.5px;
+    border-radius: 12.97px 12.97px 0 0;
+
+
 }
 
-.technical-card-container{
-    
-}
-.roadmap-milestone-card{
-     background: #EBF9FF;
-    padding-left: 18px;
-    max-width: 328px;
+.roadmap-milestone-card {
+    width: 100%; 
+    border-radius: 0 12.97px 12.97px 12.97px;
     border: 2px solid #00B3E8;
-    border-bottom-left-radius: 12.97px;
-    border-bottom-right-radius: 12.97px;
-    border-top-right-radius: 12.97px;
-   
+    padding: 20px;
+    background: #EBF9FF;
+    box-sizing: border-box; 
+    z-index: 0;
 }
-.roadmap-milestone-title-primary{
+
+
+.roadmap-milestone-header {
+    display: flex;
+    align-items: flex-end;
+}
+
+.roadmap-milestone-header h6 {
     font-family: var(--font-neue-machina);
-font-weight: 800;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0%;
-    color: #00B3E8;
-}
-.roadmap-milestone-title{
-        color: #00B3E8;
-        font-family: var(--font-neue-machina);
-font-weight: 800;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 0%;
-
-}
-.roadmap-milestone-subtitle{
-    font-family: var(--font-abz);
-font-weight: 400;
-font-size: 13px;
-line-height: 130%;
-letter-spacing: 0%;
-color: #38484E;
-}
-.tech-card h6{
-    background-color: #38484E;
-    max-width: 63px;
-    color: #FFFFFF;
-    font-family: var(--font-neue-machina);
-font-weight: 900;
-font-size: 11px;
-line-height: 110%;
-letter-spacing: 10%;
-vertical-align: middle;
-text-transform: uppercase;
-padding-left: 18px;
-padding-top: 12px;
-padding-right: 18px;
-/* padding-bottom: 6px; */
-margin: 0;
-border-top-right-radius: 12.97px;
-height: 25px;
-}
-.roadmap-milestone-header{
-    display:flex;
-    align-items: end;
-    
-}
-
-.first-row{
-        
-    display: grid;
-    grid-template-columns: 328px 97px 328px 97px 328px;
-    align-items: end;
-}
-.second-row{
-        
-    display: grid;
-    grid-template-columns: 328px 97px 328px 97px 328px;
-    align-items: center;
-}
-.third-row{
-     display: grid;
-    grid-template-columns: 328px 97px 328px 97px 328px;
-    align-items: center;
-    position: relative;
-    bottom: 48px;
-}
-
-.roadmap-connection-svg-one, .roadmap-connection-svg-two{
-    padding-bottom: 20px;
-}
-.roadmap-connection-svg-three{
-    position: relative;
-    left: 75px;
-}
-.roadmap-connection-svg-five{
-    width: 102px;
-}
-.roadmap-connection-svg-six{
-    position: relative;
-    left: 75px;
-    bottom: 47px;
-}
-
-/* gamesta-team */
-
-.gamesta-team{
-    background: linear-gradient(180deg, #F5F9FA 0%, rgba(245, 249, 250, 0) 100%);
-    clip-path: polygon(0 0, 100% 7%, 100% 100%, 0% 100%);
-
-}
-.gamesta-team-container{
-    padding-top: 200px;
-    padding-left: 133px;
-    
-}
-.gamesta-team-container h1{
-    font-family: var(--font-neue-machina-normal);
-font-weight: 400;
-font-size: 72px;
-line-height: 120%;
-letter-spacing: 0%;
-text-align: right;
-color: #273A41;
-justify-self: self-start;
-}
-.gamesta-team-column-one, .gamesta-team-column-two, .gamesta-team-column-three{
-    display: grid;
-}
-.gamesta-team-column-one{
-    gap: 64px;
-}
-.gamesta-card-container{
-   display: grid;
-    grid-template-columns: 370px 301px 301px ;
-    gap: 32px;
-  
-}
-.team-member-name{
     margin: 0;
-    margin-top: 12px;
-    font-family: Euclid Circular A;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 120%;
+    width: 33px;
+    height: 12px;
+    padding: 9.34px 15.5px 3.66px 9.34px;
+    background: #38484E;
+    color: #FFFFFF;
+    border-radius: 0 12.97px 0 0;
+    z-index: 1;
+    text-align: center;
+}
+
+.roadmap-milestone-title-primary {
+    margin: 0;
+    font-family: var(--font-neue-machina);
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 100%;
     letter-spacing: 0%;
     color: #00B3E8;
 }
-.team-member-role{
-    font-family: var(--font-abz);
-font-weight: 400;
-font-size: 14px;
-line-height: 130%;
-letter-spacing: 0%;
-color: #9BA1A4;
-margin: 0;
-}
-.team-member-description{
-    font-family: var(--font-abz);
-font-weight: 400;
-font-size: 12px;
-line-height: 130%;
-letter-spacing: 0%;
-color: #38484E;
-max-width: 370px;
-}
 
-/* advisors */
-
-.advisors-container{
-    padding-top: 100px;
-    padding-left: 132px;
-}
-.head-title{
+.roadmap-milestone-title {
+    padding-top: 25.95px;
     font-family: var(--font-neue-machina);
-font-weight: 900;
-font-size: 36px;
-line-height: 100%;
-letter-spacing: 10%;
-text-transform: uppercase;
-margin: 0;
-margin-bottom: 46px;
-color: #273A41;
-width: 294px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #00B3E8;
+    margin: 0;
 }
 
-.advisor-card-container{
-    display: flex;
-    gap: 56px;
-}
-.advisor-card{
-    max-width: 250px;
+.roadmap-milestone-subtitle {
+    font-family: var(--font-Euclid);
+    font-weight: 400;
+    font-style: Regular;
+    font-size: var(--font-base-size);
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #38484E;
+    margin: 0;
+
+
 }
 
-.partner{
- padding-left: 132px;
- margin-bottom: 60px;
-}
-.partner-icon{
-    display: grid;
-    grid-template-columns: repeat(6, 170px);
-    gap: 23px 32px;
-}
 
-/* blog */
-.gamesta-blog-container{
+/* Team, Advisors, and Partners Wrapper */
+.team-advise-partner {
     background: linear-gradient(180deg, #F5F9FA 0%, rgba(245, 249, 250, 0) 100%);
-    clip-path: polygon(0 0, 100% 7%, 100% 100%, 0% 100%);
-    padding-left: 132px;
-    padding-top: 115px;
+    clip-path: polygon(0 0, 18% 1%, 100% 5%, 100% 19%, 71% 13%, 100% 18%, 100% 100%, 84% 100%, 85% 100%, 50% 100%, 53% 100%, 0 100%);
+
 }
 
-.gamesta-logo{
-    width: 340px;
-    transform: rotate(-6deg);
+
+
+
+/* Gamesta Team */
+.gamesta-team-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 192px;
 }
-.blog{
+
+.gamesta-team-container h1 {
     font-family: var(--font-neue-machina-normal);
-font-weight: 400;
-font-size: 72px;
-line-height: 120%;
-letter-spacing: 0%;
-color: #273A41;
-transform: rotate(-6deg);
-width: 340px;
-text-align: right;
-margin: 0;
-margin-top: 20px;
-margin-bottom: 40px;
+    font-weight: var(--font-base-weight);
+    font-style: Medium;
+    font-size: 72px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #273A41;
+    text-align: right;
+    max-width: 366px;
+    padding-left: 33px;
+    margin-bottom: 76px;
 }
-.gamesta-blog-card-container{
+
+.gamesta-card-container {
+    padding: 0 201px 0 133px;
+    margin: 0 auto;
     display: flex;
-    gap:32px;
-    max-width: 370px;
-}
-.blog-post-date{
-    font-family: var(--font-abz);
-font-weight: 400;
-font-size: 14px;
-line-height: 130%;
-letter-spacing: 0%;
-color: #9BA1A4;
+    gap: 32px;
 }
 
-/* community */
-
-.community-container{
-    padding-left: 54px;
-    background: url(images/Vector\ \(10\).png) ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 500px;
-    margin-top: 90px;
-    position: relative;
-}
-.community{
-    font-family: var(--font-neue-machina);
-font-weight: 900;
-font-size: 96px;
-line-height: 100%;
-letter-spacing: 10%;
-text-align: center;
-text-transform: uppercase;
-color: #273A41;
-max-width: 785px;
-position: absolute;
-left: 580px;
-    transform: rotate(-6deg);
-    top: 30px;
-    z-index: 1;
-}
-.twitter-icon-image{
-        position: absolute;
-    z-index: 1;
-        right: 850px;
-    max-width: 130px;
-    bottom: 375px;
-}
-.telegram-icon-image{
-     position: absolute;
-      max-width: 130px;
-      bottom: 84px;
-    left: 687px;
-    z-index: 0;
-     
-}
-.youtube-icon-image{
-     position: absolute;
-      max-width: 130px;
-      right: 452px;
-    bottom: 260px;
-}
-.community-decoration-svg-one{
-position: relative;
-    bottom: 385px;
-    z-index: 60;
-    left: 212px;
-}
-.community-decoration-svg-two{
-    position: relative;
-    left: 1100px;
-    bottom: 235px;
+.gamesta-team-member-card {
+    max-width: 377px;
+    max-height: 483px;
+    margin-bottom: 64px;
 }
 
-/* footer */
-.footer-container{
-    background-color: #273A41;
-    padding-top: 100px;
-   clip-path: polygon(22% 10%, 23% 21%, 100% 0, 100% 100%, 0 100%, 0 19%);
-    padding-left: 46px;
-    padding-right: 90px;
-    padding-bottom:57px ;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
+.gamesta-team-column-two {
+    margin-top: -22%;
 }
 
-.logo-copyright{
-        max-width: 135px;
-        font-family: var(--font-abz);
-font-weight: 400;
-font-size: 13px;
-line-height: 120%;
-letter-spacing: 0%;
-color: #FFFFFF;
-
-}
-.f-content-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: space-between;
-    gap: 120px;
+.gamesta-team-column-three {
+    margin-left: 69px;
 }
 
-.f-content-container a{
-    color: #FFFFFF;
-    text-decoration: none;
-    font-family: var(--font-abz);
-font-weight: 400;
-font-size: 13px;
-line-height: 100%;
-letter-spacing: 0%;
 
+
+
+/* Advisors Section */
+.advisors-section {
     
 }
-.footer-content-column{
+
+.advisors-container {
+    max-width: 1152px;
+    margin: 0 auto 62px auto;
+    padding: 0 156px 0 132px;
+}
+
+.advisor-card-container {
+    display: flex;
+    gap: 56px;
+    
+    justify-content: space-between;
+}
+
+.advisor-card {
+    max-width: 246px;
+    max-height: 405px;
+}
+
+.team-member-name {
+    font-family: var(--font-Euclid);
+    font-weight: var(--font-base-weight);
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #00B3E8;
+    margin: 12px 0 0 0;
+}
+
+.team-member-role {
+    font-family: var(--font-Euclid);
+    font-weight: var(--font-base-weight);
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #9BA1A4;
+    margin: 0;
+}
+
+.team-member-description {
+    font-family: var(--font-Euclid);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #38484E;
+
+
+}
+
+
+
+
+
+/* Partners & Investors Section */
+.partners-investors-section {
+    
+
+}
+
+.partner {
+    max-width: 1174px;
+    padding: 60px 133px 62px 133px;
+    margin: 0 auto;
+}
+
+.head-title {
+    max-width: 294px;
+    font-family: var(--font-neue-machina);
+    font-weight: 900;
+    font-weight: bold;
+    font-style: bold;
+    font-style: Black;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    text-transform: uppercase;
+    color: var(--font-primary-font-color);
+    margin-bottom: 46px;
+
+}
+
+.partner-icon {
+    
+    
+    
     display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 32px;
+    row-gap: 23px;
+
+}
+
+.partner-investor-brand-icon {
+    width: 169px;
+    height: 109px;
+    border: 1px solid #EEF3F5;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* Blog and Community Wrapper */
+.blog-join {
+    background: linear-gradient(180deg, #F5F9FA 0%, rgba(245, 249, 250, 0) 100%);
+    clip-path: polygon(0 1%, 17% 3%, 100% 11%, 100% 19%, 71% 13%, 100% 18%, 100% 100%, 84% 100%, 85% 100%, 50% 100%, 53% 100%, 0 100%);
+}
+
+
+
+/* Blog Section */
+.gamesta-blog-container {
+    max-width: 1174px;
+    margin: 0 auto;
+    padding: 114.19px 133px 67.47px 133px;
+}
+
+.gamesta-logo {
+    width: 343px;
+    height: 41px;
+    transform: rotate(-6deg);
+}
+
+.blog {
+    font-family: var(--font-neue-machina-normal);
+    font-weight: var(--font-base-weight);
+    font-style: Medium;
+    font-size: 72px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: start;
+    
+    color: var(--font-primary-font-color);
+    transform: rotate(-6deg);
+    padding-left: 15%;
+    margin-top: -4%;
+    padding-bottom: 40px;
+
+}
+
+.gamesta-blog-card-container {
+    display: flex;
+    margin: 0 auto 89px auto;
+    gap: 32px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gamesta-blog-card {
+    max-width: 370px;
+    max-height: 201px;
+}
+
+.blog-post-date {
+    font-family: var(--font-Euclid);
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #9BA1A4;
+
+
+}
+
+
+
+/* Join Community Section */
+.join {
+    background-image: url('./images/Vector\ \(10\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1298px;
+    height: 493px;
+    margin: 0 auto;
+    z-index: 0 !important;
+    position: relative;
+}
+
+.community-container {
+    max-width: 781px;
+    max-height: 192px;
+    margin: 85.6px auto 0 auto;
+    padding-top: 69.13px;
+    padding-bottom: 151.63px;
+    position: relative;
+}
+
+.community {
+    font-family: var(--font-neue-machina);
+    font-weight: 900;
+    font-style: Black;
+    font-size: 96px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--font-primary-font-color);
+    margin: 0;
+    transform: rotate(-6deg);
+    z-index: 2;
+    position: relative;
+}
+
+.twitter-icon-image {
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    top: -8%;
+    left: 43%;
+    z-index: 3;
+}
+
+.youtube-icon-image {
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    top: 19%;
+    right: -7.75%;
+    z-index: 3;
+}
+
+.telegram-icon-image {
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    bottom: 7%;
+    left: 18%;
+    z-index: 1;
+}
+
+.community-decoration-svg-one {
+    width: 701px;
+    position: absolute;
+    top: 23%;
+    left: -17.25%;
+}
+
+.community-decoration-svg-two {
+    width: 701px;
+    position: absolute;
+    bottom: 31%;
+    right: -40.25%;
+}
+
+
+
+
+
+/* Footer */
+footer {
+    background: #273A41;
+    height: 322px;
+    clip-path: polygon(0 39%, 26% 24%, 28% 42%, 100% 0, 100% 0, 100% 15%, 100% 100%, 84% 100%, 85% 100%, 15% 100%, 15% 100%, 0 100%);
+
+}
+
+.footer-container {
+    display: flex;
+    max-width: 1440px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20.19px 90px 0 46px;
+}
+
+.logo-copyright {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 196px;
+    
+}
+
+.logo-copyright img {
+    width: 155px;
+    height: 19px;
+    display: none;
+}
+
+.logo-copyright p {
+    width: 114px;
+    height: 32px;
+
+    font-family: var(--font-Euclid);
+    font-weight: var(--font-base-weight);
+
+    font-size: 13px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #ffffffff;
+    margin: 0;
+}
+
+.f-content-container {
+    display: flex;
+    gap: 120px;
+    padding-top: 178px;
+    
+}
+
+.footer-content-column {
+    display: flex;
+    flex-direction: column;
     gap: 24px;
 }
-.footer-social-icons-wrapper{
+
+
+.footer-content-column a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: var(--font-Euclid);
+    font-weight: var(--font-base-weight);
+    font-size: var(--font-base-size);
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.f-icon-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 29px;
+    padding-top: 178px;
+    
+}
+
+.footer-social-icons-wrapper {
     display: flex;
     align-items: center;
     gap: 16px;
-    font-family: var(--font-abz);
-font-weight: 400;
-font-size: 13px;
-line-height: 100%;
-letter-spacing: 0%;
-color: #fff;
-padding-top: 30px;
+}
+
+.footer-social-icons-wrapper p {
+    font-family: var(--font-Euclid);
+    font-weight: var(--font-base-weight);
+    font-size: var(--font-base-size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+
+}
+
+.footer-social-icons-wrapper img {
+    width: 20px;
+    height: 16px;
+    opacity: 0.4;
+}
+
+
+
+
+
+
+
+/* Responsive Design - Mobile (576px) */
+@media (max-width: 576px) {
+
+    nav {
+        padding: 6px 12px;
+        margin-top: 18px;
+        gap: 10px;
+    }
+
+    .logo img {
+        width: 150px;
+        height: auto;
+    }
+
+    .toggle-btn {
+        display: flex;
+        width: 26px;
+        
+        z-index: 20;
+        
+    }
+
+    .nav-items {
+        position: absolute;
+        top: 70%;
+        right: 0;
+        width: 50%;
+        background: black;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 25px 0;
+        display: none;
+        border-radius: 10px;
+    }
+
+    .mobile-btn {
+        display: block;
+    }
+
+    .nav-items.active {
+        display: flex;
+        z-index: 2;
+        height: 300px;
+    }
+
+    .nav-items li a {
+        font-size: 12px;
+    }
+
+    .header-button-container {
+        display: none;
+    }
+
+    .mobile-btn button {
+        padding: 12px 16px;
+        background: #fff;
+        color: #01A590;
+        border-radius: 6px;
+        border: none;
+        font-size: 14px;
+    }
+
+    
+    .hero {
+        margin-top: -52px;
+    }
+
+    .hero-bg {
+        clip-path: polygon(0 0, 100% 0, 100% 86.5%, 0% 94%);
+        height: 844px;
+    }
+
+    .hero-container {
+        padding-top: 48px;
+        padding-left: 16px;
+        max-height: 100%;
+    }
+
+    .hero-bg .hero-images-container {
+        max-width: 100%;
+        bottom: -13%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-title {
+        font-size: 40px;
+        margin-top: 48px;
+        margin-bottom: 20px;
+    }
+
+    .hero-community-button {
+        width: 106.33px !important;
+        height: 44px;
+        padding-left: 10.17px;
+        padding-right: 10.17px;
+        font-size: 14px;
+    }
+
+    .hero-community-button img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .hero-desc {
+        font-size: 16px;
+        padding-left: 0;
+        max-width: 343px;
+    }
+
+    .title-btn,
+    .hero-horizontal-buttons,
+    .hero-community {
+        padding-left: 0;
+    }
+
+    .hero-buy-button-mexc {
+        max-width: 124px;
+    }
+
+    .hero-buy-button-quickswap {
+        max-width: 163px;
+    }
+
+    .hero-images-container {
+        max-width: 100%;
+        bottom: 24%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        right: 100%;
+    }
+
+
+
+    .hero-character-front {
+        margin-right: 0;
+        max-width: 89%;
+        display: none;
+    }
+
+    .hero-decoration-orb {
+        width: 79%;
+        top: -34%;
+        right: -4%;
+        display: none;
+    }
+
+    .hero-background-abstract {
+        width: 52%;
+        transform: translate(-182%, -65%);
+        display: none;
+    }
+
+    .img-4 {
+        width: 70%;
+        top: -43%;
+        left: 20%;
+        display: none;
+    }
+
+    .hero-character-background {
+        display: block;
+        clip-path: polygon(0 0, 100% 0, 100% 18%, 0 18%);
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+
+    
+    .gamesta-dapp-container {
+        max-width: 100%;
+        padding: 256px 16px 70px 16px;
+        text-align: center;
+    }
+
+    .dapp-bg {
+        clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 99%);
+    }
+
+    .dapp-heading-container {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dapp-decoration-svg {
+        top: 17.5%;
+        left: -66%;
+    }
+
+    .dapp {
+        max-width: 325px;
+        font-size: 40px;
+        text-align: center;
+        padding-left: 0;
+        font-family: Neue Machina;
+        line-height: 100%;
+        letter-spacing: 10%;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 10%;
+
+    }
+
+    .dapp-intro-paragraph {
+        font-size: 16px;
+        max-width: 334px;
+        padding-left: 0;
+
+    }
+
+    .dapp-para {
+        text-align: center;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+
+    }
+
+    .dapp-launch-group-container {
+        width: 30%;
+        top: 18%;
+        right: 5%;
+    }
+
+    .dapp-launch-group-container h6 {
+        padding: 0;
+    }
+
+    .launch-status-container,
+    .launch-quarter-box {
+        width: 60%;
+
+
+    }
+
+    .launch-status-container h6,
+    .launch-quarter-box h6 {
+        font-size: 8.34px;
+        
+        height: 20.66px;
+        text-align: center;
+        padding-top: 5.37px;
+    }
+
+    .dapp-card-container {
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+    }
+
+    .dapp-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dapp-icon-container {
+        text-align: center;
+    }
+
+
+    
+    .future-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+        margin-top: 59px;
+    }
+
+    .future-card-container {
+        padding-left: 0;
+        margin-bottom: 67%;
+    }
+
+    .future-title {
+        font-size: 30px;
+        max-width: 201px;
+    }
+
+    .future-applications-button-wrapper {
+        text-align: start;
+        max-width: 182px;
+    }
+
+    .future-btn {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .future-app-card-icon {
+        width: 15.45894718170166px;
+        height: 12.560563087463379px;
+        opacity: 1;
+    }
+
+    .future-app-card-fund {
+        width: 99px;
+        height: 66px;
+        bottom: 0%;
+        border-radius: 12.88px;
+        padding: 8px 9px;
+        left: 19%;
+        top: 112%;
+    }
+
+    .future-app-card-loan {
+        width: 68px;
+        height: 37px;
+        border-radius: 12.88px;
+        padding: 29px 6px 8px 6px;
+        top: -47%;
+    }
+
+    .future-app-card-api {
+        width: 114px;
+        height: 56.46px;
+        border-radius: 12.88px;
+        padding: 16px 12px;
+        right: 0%;
+
+    }
+
+    .future-app-card-gpad {
+        width: 45.54px;
+        height: 37px;
+        padding: 15px 28.36px 6px 6px;
+        border-radius: 12.88px;
+        margin-top: 15.47px;
+
+    }
+
+    .future-app-card-gavatar {
+        width: 70px;
+        height: 37px;
+        padding: 8px;
+        border-radius: 12.88px;
+        top: 25%;
+    }
+
+    .future-app-card-trading {
+        width: 100px;
+        height: 49px;
+        padding: 8px 10px 5px 10px;
+        top: 235%;
+        left: 0%;
+        border-radius: 12.88px;
+    }
+
+    .future-app-card-earn {
+        width: 71px;
+        height: 50px;
+        padding: 9px;
+        border-radius: 12.88px;
+        top: -171%;
+        right: 4%;
+    }
+
+    .future-app-card-paragraph {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    
+    .play2earn {
+        max-width: 100%;
+        padding: 0 16px;
+    }
+
+    .play-earn-decoration-svg-one {
+        top: 1%;
+        right: -38%;
+    }
+
+
+    .play-bg {
+        height: 100%;
+        position: relative;
+    }
+
+    .play-earn-heading-secondary {
+        width: 359px;
+        font-size: 45.32px;
+        letter-spacing: 0.1em;
+        opacity: 0.2;
+    }
+
+    .play-earn-heading-primary {
+        
+        position: absolute;
+        right: 0%;
+        font-size: 30.21px;
+        margin: 0;
+        padding-top: 5%;
+        letter-spacing: 0.1em;
+    }
+
+    .play-earn-info-subtitle {
+        text-align: start;
+        font-size: 18px;
+        margin-top: 23.8px;
+    }
+
+    .play-details {
+        padding-left: 6%;
+        font-size: 14px;
+    }
+
+    .play-2-card-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .play-card {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .play-card:nth-child(odd) {
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .play-card:nth-child(even) {
+        text-align: right;
+        align-items: flex-end;
+    }
+
+    .play-earn-decoration-svg-two {
+        display: block;
+        position: absolute;
+        top: 37%;
+        left: -25%;
+    }
+
+    .play-earn-decoration-svg-three {
+        display: block;
+        position: absolute;
+        top: 78%;
+        left: -25%;
+    }
+
+    
+    .game-title,
+    .games-carousel-container {
+        padding-left: 16px;
+    }
+
+    
+    .eco-container {
+        max-width: 100%;
+        padding: 0 16px;
+        margin-bottom: 122px;
+    }
+
+    .ecosystem-heading-primary {
+        font-size: 40px;
+        padding-left: 0;
+    }
+
+    .eco-content {
+        padding-left: 0;
+    }
+
+    .ecosystem-heading-secondary {
+        padding-left: 31% !important;
+    }
+
+    .eco-para {
+        font-size: 18px;
+    }
+
+    .gsg-token-paragraph-primary {
+        font-size: 16px;
+        margin-left: 21%;
+        max-width: 272px;
+        top: -114%;
+    }
+
+    .gsg-container {
+        max-width: 100%;
+    }
+
+    .gsg-token-container {
+        max-width: 100%;
+        margin-top: 68%;
+    }
+
+    .gsg-token-background-image {
+        max-width: 55%;
+    }
+
+    .gsg-token-prefix {
+        font-size: 8px;
+
+    }
+
+    .gsg-token-symbol {
+        font-size: 24px;
+    }
+
+    .gsg-token-text-container {
+        width: 74%;
+        top: 55%;
+        right: -3%;
+    }
+
+    .gsg-token-text-line-one h1 {
+        max-width: 43%;
+        font-size: 12px;
+        padding: 3.06px 4.52px 3.58px 9.11px;
+
+    }
+
+    .gsg-token-text-line-two h1 {
+        max-width: 54%;
+        margin-left: 21%;
+        margin-top: -4%;
+        font-size: 12px;
+        padding: 3.06px 4.52px 3.58px 9.11px;
+
+    }
+
+    .gsg-token-text-line-three h1 {
+        max-width: 54%;
+        margin-left: 35%;
+        margin-top: -2%;
+        font-size: 12px;
+        padding: 3.06px 4.52px 3.58px 9.11px;
+    }
+
+
+    .gsg-token-paragraph-secondary {
+        bottom: -29%;
+        left: 0%;
+        width: 207px;
+        font-size: 12px;
+    }
+
+    
+    .distribution-container {
+        max-width: 100%;
+        padding: 0 16px;
+        margin-bottom: 60px;
+    }
+
+    .dist-title {
+        font-size: 24px;
+    }
+
+    .distribution-content {
+        flex-direction: column;
+        max-width: 100%;
+        padding-top: 34px;
+        gap: 0px;
+    }
+
+    .distribution-content-secondary {
+        padding-top: 60px;
+    }
+
+    .distribution-content-primary img,
+    .distribution-content-secondary img {
+        max-width: 100%;
+    }
+
+    .distribution-twenty-percent-image {
+        transform: translateX(0);
+    }
+
+    .distribution-decoration-svg {
+        top: -41%;
+        transform: rotate(66deg);
+    }
+
+    .distribution-paragraph {
+        left: 11% !important;
+        top: 10% !important;
+        font-size: 16px;
+    }
+
+    .distribution-paragraph-secondary {
+        padding-left: 0 !important;
+    }
+
+    .percent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 54px;
+        row-gap: 54px;
+    }
+
+    
+    .games-section-decoration-svg {
+        display: none;
+    }
+
+    
+    .agency-container {
+        max-width: 100%;
+        padding: 016px;
+    }
+
+    .agency-decoration-svg-top {
+        left: -58%;
+    }
+
+    .agency-decoration-svg-bottom {
+        top: 35%;
+        right: -56%;
+    }
+
+    .agency-background-shape {
+        max-width: 100%;
+    }
+
+    .agency-artboard-image {
+        width: 42%;
+        left: 31%;
+        top: 2%;
+    }
+
+    .agency-description-heading {
+        top: 46%;
+        left: 27%;
+        font-size: 10px;
+        width: 177px;
+    }
+
+    .agency-description-paragraph {
+        top: 59%;
+        max-width: 291px;
+        left: 14%;
+        font-size: 8px;
+    }
+
+    .agency-button-container {
+        bottom: 12%;
+    }
+
+    .agency-button {
+        font-size: 5.15px;
+        width: 64.43px;
+        height: 18.08px;
+        border-radius: 1.93px;
+    }
+
+    .agency-rectangle-decoration-one {
+        width: 29.14px;
+        right: 4%;
+        top: 0%;
+    }
+
+    .agency-rectangle-decoration-two {
+        width: 29.14px;
+        bottom: 13%;
+        left: 4%;
+    }
+
+    .agency-title-background {
+        top: -5%;
+        left: 3%;
+    }
+
+    .agency-word {
+        width: 356px;
+        font-size: 67.01px;
+        -webkit-text-stroke: 0.31px #FFFFFF;
+        opacity: 0.4;
+        text-align: center;
+    }
+
+    
+
+    
+    .incubation {
+        max-width: 100%;
+        padding: 0 16px;
+        margin-top: 60px;
+    }
+
+    .incubation-decoration-svg {
+        display: none;
+    }
+
+    .incubation-section-title {
+        font-size: 40px;
+    }
+
+    .incubation-description-paragraph {
+        font-size: 16px;
+    }
+
+    .incubation-content {
+        padding-left: 0;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 35.63px;
+    }
+
+    .tick-list {
+        grid-template-columns: 1fr;
+    }
+
+    .tick-list li::before {
+        left: 16%
+    }
+
+    
+    .black-container {
+        max-width: 100%;
+        padding: 0 54.56px 0;
+        height: 213.13px;
+
+    }
+
+    .black-gamex-section {
+        height: 100%;
+    }
+
+    .black-gamex-title-primary {
+        position: absolute;
+        top: 40%;
+        font-size: 24px;
+    }
+
+    .black-gamex-title-secondary {
+        top: 58% !important;
+        left: 9% !important;
+    }
+
+    .black-gamex-title-tertiary {
+        top: 74% !important;
+        left: 26% !important;
+    }
+
+    .black-p-container {
+        margin: 0;
+    }
+
+    .card-img {
+        max-width: 76% !important;
+        right: -6%;
+    }
+
+    .black-gamex-paragraph span {
+        text-underline-offset: 3px;
+    }
+
+    
+    .technical-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+    }
+
+    .technical-title {
+        font-size: 24px;
+        letter-spacing: 10% !important;
+        margin-bottom: 20px;
+    }
+
+    .technical-card-container {
+        
+        
+        
+    }
+
+    .tech-card {
+        
+    }
+
+    .roadmap-milestone-card {
+        
+        padding: 5.69px 5.69px 5.38px 5.12px;
+        border-radius: 0 3.79px 3.79px 3.79px;
+    }
+
+    .technical-roadmap-quarter {
+        width: 48.79px;
+        font-size: 7.01px;
+        padding: 4.86px 5.9px 3.5px 5.9px;
+        border-radius: 3.79px 3.79px 0 0;
+    }
+
+    .roadmap-milestone-title-primary {
+        font-size: 4.67px;
+    }
+
+    .roadmap-milestone-title {
+        font-size: 4.67px;
+        padding-top: 7.58px;
+    }
+
+    .roadmap-milestone-subtitle {
+        font-size: 3.8px;
+    }
+
+    .roadmap-milestone-header h6 {
+        width: 18.41px;
+        height: 7.3px;
+        padding: 2.48px 4.98px 0 4.98px;
+        font-size: 3.21px;
+        border-radius: 0 3.79px 0 0;
+    }
+
+    
+    .technical-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .roadmap-milestone-card {
+        
+    }
+    .technical-container {
+        
+        
+    }
+
+    .tech-card {
+        flex: 1 1 calc(32% - 64px); 
+        min-width: 90px;
+    }
+
+    
+    .roadmap-connection-svg-one,
+    .roadmap-connection-svg-two,
+    .roadmap-connection-svg-four,
+    .roadmap-connection-svg-five,
+    .roadmap-connection-svg-seven,
+    .roadmap-connection-svg-eight {
+        width: 28.34px;
+        right: -25%;
+    }
+
+    .roadmap-connection-svg-three{
+        width: 80%;
+        height: 38.27px;
+        margin-left: 4%;
+        margin-right: 1%;
+        margin-top: -0.5%;
+    }
+    .roadmap-connection-svg-six {
+        width: 80%;
+        height: 66.61px;
+        margin-left: 4%;
+        margin-right: 1%;
+        
+        margin-top: -4.5%;
+    }
+
+
+
+    .black-gamex-paragraph {
+        font-size: 10px;
+        max-width: 103px;
+    }
+
+    .black-bg {
+        max-height: 213px;
+    }
+
+    .black-gamex-decoration-svg-one {
+        left: -35%;
+        bottom: 3%;
+    }
+
+    .black-gamex-decoration-svg-two {
+        right: -34%;
+        top: 28%;
+    }
+
+    .card-img {
+        max-width: 100%;
+        top: 0%;
+    }
+
+    
+    .team-advise-partner {
+        clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+    }
+
+    .gamesta-team-container {
+        max-width: 100%;
+        padding-top: 63px;
+    }
+
+    .gamesta-team-container h1 {
+        font-size: 40px;
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .gamesta-card-container {
+        padding: 0 16px 0 16px;
+        flex-direction: column;
+    }
+
+    .gamesta-team-column-three {
+        margin-left: 0;
+    }
+
+    
+    .advisors-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+    }
+
+    .advisor-card-container {
+        flex-direction: column;
+    }
+
+    .advisor-card {
+        max-width: 100%;
+    }
+
+    
+    .partner {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+
+    }
+
+    .partner-icon {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .partner-investor-brand-icon {
+        width: 100%;
+    }
+
+    
+    .blog-join {
+        clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+        margin-top: 60px;
+
+    }
+
+    .gamesta-blog-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+    }
+
+    .gamesta-logo {
+        padding-top: 60px;
+        width: 242px;
+    }
+
+    .blog {
+        font-size: 48px;
+        padding-left: 39%;
+    }
+
+    .gamesta-blog-card-container {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .gamesta-blog-card,
+    .gamesta-blog-card img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    
+    .join {
+        width: 344.66px;
+        height: 130.96px;
+        background-image: url('./images/Vector (13).png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0 16px 0 16px;
+
+    }
+
+    .community-container {
+        max-width: 100%;
+        margin-top: 0;
+        
+        padding-bottom: 0;
+    }
+
+    .community {
+        max-width: 100%;
+        font-size: 25.48px;
+        max-width: 208px;
+        margin: -42px auto 0 auto;
+        
+    }
+
+    .twitter-icon-image {
+        max-width: 53.29px;
+        max-height: 35.84px;
+        top: 0%;
+        left: 46%;
+
+    }
+
+    .telegram-icon-image {
+        max-width: 53.29px;
+        max-height: 35.84px;
+        top: 93%;
+        left: 30%;
+    }
+
+    .youtube-icon-image {
+        max-width: 62.45px;
+        max-height: 35.84px;
+        top: 38%;
+        right: 8%;
+    }
+
+    .community-decoration-svg-one,
+    .community-decoration-svg-two {
+        display: none;
+    }
+
+    
+    footer {
+        clip-path: polygon(0 11%, 33% 5%, 35% 10%, 100% 2%, 100% 16%, 100% 15%, 100% 100%, 82% 100%, 85% 100%, 15% 100%, 19% 100%, 0 100%);
+        height: 352px;
+
+    }
+
+    .footer-container {
+        flex-direction: column-reverse;
+        padding: 0 16px 0 16px;
+        
+        
+        position: relative;
+    }
+
+    .logo-copyright img {
+        display: none;
+    }
+
+    .logo-copyright {
+        padding-bottom: 13px;
+        padding-top: 38px;
+        padding-left: 69%;
+
+    }
+
+    .f-content-container {
+        padding-top: 48px;
+        padding-bottom: 0;
+        gap: 53px;
+        position: relative;
+    }
+
+    .f-icon-btn {
+        padding-top: 0;
+    }
+
+    .logo-copyright p {
+        text-align: right;
+    }
+
+    .footer-social-icons-wrapper {
+        padding-top: 95px;
+    }
+
+    .f-icon-btn {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-desktop-button-container {
+        position: absolute;
+        bottom: 6%;
+        left: 5%;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    nav {
+        padding: 6px 12px;
+        margin-top: 18px;
+    }
+
+    .logo img {
+        width: 150px;
+        height: auto;
+    }
+
+    .hero-character-front{
+        margin-right: 0;
+        
+    }
+    .hero-decoration-orb{
+        
+
+    }
+    .hero-background-abstract{
+        width: 400px;
+        right: 20%;
+        top: 35%;
+
+
+    }
+
+    .toggle-btn {
+        display: flex;
+        width: 26px;
+        height: 20px;
+        z-index: 20;
+    }
+
+    .nav-items {
+        position: absolute;
+        top: 6%;
+        right: 0;
+        width: 50%;
+        background: black;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 25px 0;
+        display: none;
+        border-radius: 10px;
+    }
+
+    .mobile-btn {
+        display: block;
+    }
+
+    .nav-items.active {
+        display: flex;
+        z-index: 2;
+    }
+
+    .nav-items li a {
+        font-size: 12px;
+    }
+
+    .header-button-container {
+        display: none;
+    }
+
+    .mobile-btn button {
+        padding: 12px 16px;
+        background: #fff;
+        color: #01A590;
+        border-radius: 6px;
+        border: none;
+        font-size: 14px;
+    }
+
+    
+    .hero {
+        margin-top: -14.5%;
+    }
+
+    .hero-container {
+        padding-top: 48px;
+        padding-left: 16px;
+    }
+
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .hero-community-button {
+        width: 106.33px !important;
+        padding-left: 10.17px;
+        padding-right: 10.17px;
+    }
+
+    .hero-desc {
+        font-size: 16px;
+        padding-left: 0;
+    }
+
+    .title-btn,
+    .hero-horizontal-buttons,
+    .hero-community {
+        padding-left: 0;
+    }
+
+    .hero-buy-button-mexc {
+        max-width: 124px;
+    }
+
+    .hero-buy-button-quickswap {
+        max-width: 163px;
+    }
+
+    .hero-images-container {
+        position: relative;
+    }
+
+    .hero-images-container img {
+        max-width: 100%;
+    }
+
+    .hero-decoration-orb {
+        width: 70%;
+        top: 5%;
+        right: 6%;
+    }
+
+    
+
+    .dapp-bg{
+        clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 99%);
+    }
+    .gamesta-dapp-container {
+        max-width: 100%;
+        padding: 333px 16px 70px 16px;
+    }
+
+    .dapp-decoration-svg {
+        top: 3.5%;
+        left: -66%;
+    }
+
+    .dapp-heading-container {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dapp {
+        max-width: 325px;
+        font-size: 40px;
+        text-align: center;
+        padding-left: 0;
+        line-height: 100%;
+        letter-spacing: 10%;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 10%;
+    }
+
+    .dapp-intro-paragraph {
+        font-size: 20px;
+        max-width: 334px;
+        padding-left: 0;
+
+    }
+
+    .dapp-para {
+        text-align: center;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+
+    }
+
+    .dapp-launch-group-container {
+        width: 30%;
+        top: 4%;
+        right: 9%;
+    }
+
+    .dapp-card-container {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dapp-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dapp-icon-container {
+        text-align: center;
+    }
+
+
+    
+    .future-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+        margin-top: 59px;
+        width: 370px;
+    }
+
+    .future-card-container {
+        padding-left: 0;
+        margin-bottom: 67%;
+    }
+
+    .future-title {
+        font-size: 30px;
+        max-width: 201px;
+    }
+
+    .future-applications-button-wrapper {
+        text-align: start;
+        max-width: 182px;
+    }
+
+    .future-btn {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .future-app-card-icon {
+        width: 15.45894718170166px;
+        height: 12.560563087463379px;
+        opacity: 1;
+    }
+
+    .future-app-card-fund {
+        width: 99px;
+        height: 66px;
+        bottom: 0%;
+        border-radius: 12.88px;
+        padding: 8px 9px;
+        left: 19%;
+        top: 112%;
+    }
+
+    .future-app-card-loan {
+        width: 68px;
+        height: 37px;
+        border-radius: 12.88px;
+        padding: 29px 6px 8px 6px;
+        top: -47%;
+    }
+
+    .future-app-card-api {
+        width: 114px;
+        height: 56.46px;
+        border-radius: 12.88px;
+        padding: 16px 12px;
+        right: 0%;
+
+    }
+
+    .future-app-card-gpad {
+        width: 45.54px;
+        height: 37px;
+        padding: 15px 28.36px 6px 6px;
+        border-radius: 12.88px;
+        margin-top: 15.47px;
+
+    }
+
+    .future-app-card-gavatar {
+        width: 70px;
+        height: 37px;
+        padding: 8px;
+        border-radius: 12.88px;
+        top: 25%;
+    }
+
+    .future-app-card-trading {
+        width: 100px;
+        height: 49px;
+        padding: 8px 10px 5px 10px;
+        top: 235%;
+        left: 0%;
+        border-radius: 12.88px;
+    }
+
+    .future-app-card-earn {
+        width: 71px;
+        height: 50px;
+        padding: 9px;
+        border-radius: 12.88px;
+        top: -171%;
+        right: 4%;
+    }
+
+    .future-app-card-paragraph {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    
+    .play2earn {
+        max-width: 100%;
+        padding: 0 16px;
+    }
+
+    .play-bg {
+        margin: 0 auto;
+        width: 359px;
+        height: 63.63px;
+        background-image: url('./images/Play\ 2\ Earn\ \(1\).png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .play-earn-heading-primary {
+        font-size: 30.21px;
+        margin: 0;
+        padding-top: 4%;
+    }
+
+    .play-earn-heading-secondary {
+        font-size: 53px;
+    }
+
+    .play-earn-info-subtitle {
+        text-align: start;
+        font-size: 18px;
+        margin-top: 23.8px;
+    }
+
+    .play-details {
+        padding-left: 6%;
+        font-size: 14px;
+    }
+
+    .play-2-card-container {
+        grid-template-columns: 1fr;
+        row-gap: 48px;
+    }
+
+    .play-card {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .play-card:nth-child(odd) {
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .play-card:nth-child(even) {
+        text-align: right;
+        align-items: flex-end;
+    }
+
+    
+    .game-title,
+    .games-carousel-container {
+        padding-left: 16px;
+    }
+
+    
+    .eco-container {
+        max-width: 100%;
+        padding: 0 16px;
+        margin-bottom: 122px;
+    }
+
+    .ecosystem-heading-primary {
+        font-size: 40px;
+        padding-left: 0;
+    }
+
+    .eco-content {
+        padding-left: 0;
+    }
+
+    .ecosystem-heading-secondary {
+        padding-left: 31% !important;
+    }
+
+    .eco-para {
+        font-size: 18px;
+    }
+
+    .gsg-token-paragraph-primary {
+        font-size: 16px;
+        margin-left: 21%;
+        max-width: 272px;
+        top: -54%;
+    }
+
+    .gsg-container {
+        max-width: 100%;
+    }
+
+    .gsg-token-container {
+        max-width: 100%;
+        margin-top: 30%;
+    }
+
+    .gsg-token-background-image {
+        max-width: 55%;
+    }
+
+    .gsg-token-prefix {
+        font-size: 8px;
+        top: 38%;
+        left: 22%;
+    }
+
+    .gsg-token-symbol {
+        font-size: 24px;
+        top: 41%;
+        left: 20%;
+    }
+
+    .gsg-token-text-container {
+        width: 74%;
+        top: 55%;
+        right: -3%;
+    }
+
+    .gsg-token-text-line-one h1 {
+        max-width: 43%;
+        font-size: 16px;
+        padding: 5.06px 4.52px 5.58px 9.11px;
+    }
+
+    .gsg-token-text-line-two h1 {
+        max-width: 54%;
+        margin-left: 21%;
+        margin-top: -4%;
+        font-size: 16px;
+        padding: 5.06px 4.52px 5.58px 9.11px;
+    }
+
+    .gsg-token-text-line-three h1 {
+        max-width: 54%;
+        margin-left: 35%;
+        margin-top: -2%;
+        font-size: 16px;
+        padding: 5.06px 4.52px 5.58px 9.11px;
+    }
+
+    .gsg-token-paragraph-secondary {
+        bottom: -14%;
+        left: 0%;
+        width: 207px;
+        font-size: 12px;
+    }
+
+    
+    .distribution-container {
+        max-width: 100%;
+        padding: 0 16px;
+        margin-bottom: 60px;
+    }
+
+    .dist-title {
+        font-size: 24px;
+    }
+
+    .distribution-content {
+        flex-direction: column;
+        max-width: 100%;
+        padding-top: 34px;
+    }
+
+    .distribution-content-primary img,
+    .distribution-content-secondary img {
+        max-width: 100%;
+    }
+
+    .distribution-decoration-svg {
+        top: -45%;
+        left: 37%;
+        transform: rotate(73deg);
+    }
+
+    .distribution-paragraph {
+        left: 11% !important;
+        top: 10% !important;
+        font-size: 16px;
+    }
+
+    .distribution-paragraph-secondary {
+        padding-left: 0 !important;
+    }
+
+    .percent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 54px;
+        row-gap: 54px;
+    }
+
+    
+    .agency-container {
+        max-width: 100%;
+        padding: 016px;
+    }
+
+    .agency-background-shape {
+        max-width: 100%;
+    }
+
+    .agency-artboard-image {
+        width: 42%;
+        left: 31%;
+        top: 2%;
+    }
+
+    .agency-description-heading {
+        top: 46%;
+        left: 21%;
+        font-size: 14px;
+    }
+
+    .agency-description-paragraph {
+        top: 59%;
+        max-width: 430px;
+        left: 23%;
+        font-size: 12px;
+    }
+
+    .agency-button-container {
+        bottom: 12%;
+        left: 48%;
+    }
+
+    .agency-button {
+        font-size: 6.15px;
+        width: 71.43px;
+        height: 22.08px;
+        border-radius: 1.93px;
+    }
+
+    .agency-rectangle-decoration-one {
+        width: 29.14px;
+        right: 4%;
+        top: 0%;
+    }
+
+    .agency-rectangle-decoration-two {
+        width: 29.14px;
+        bottom: 13%;
+        left: 4%;
+    }
+
+    .agency-title-background {
+        display: none;
+    }
+
+    .agency-bg {
+        position: absolute;
+        display: block;
+        top: 24%;
+        left: 30%;
+    }
+
+    
+    .incubation {
+        max-width: 100%;
+        padding: 0 16px;
+        margin-top: 60px;
+    }
+
+    .incubation-section-title {
+        font-size: 40px;
+    }
+
+    .incubation-content {
+        padding-left: 0;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 35.63px;
+    }
+
+    .tick-list {
+        grid-template-columns: 1fr;
+    }
+
+    .tick-list li::before {
+        left: 16%
+    }
+
+    
+    .black-container {
+        max-width: 100%;
+        padding: 0 54.56px 0;
+        height: 213.13px;
+
+    }
+
+    .black-gamex-section {
+        height: 100%;
+    }
+
+    .black-gamex-title-primary {
+        position: absolute;
+        top: 40%;
+        font-size: 24px;
+    }
+
+    .black-gamex-title-secondary {
+        top: 58% !important;
+        left: 9% !important;
+    }
+
+    .black-gamex-title-tertiary {
+        top: 74% !important;
+        left: 26% !important;
+    }
+
+    .black-p-container {
+        margin: 0;
+    }
+
+    .card-img {
+        max-width: 32% !important;
+        right: 5%;
+        top: 16%;
+    }
+
+    .black-gamex-paragraph span {
+        text-underline-offset: 3px;
+    }
+
+    
+    .technical-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+    }
+
+    .technical-title {
+        font-size: 24px;
+        letter-spacing: 10% !important;
+        margin-bottom: 20px;
+    }
+
+    .technical-card-container {
+        max-width: 100%;
+        
+        
+    }
+
+    .tech-card {
+        width: 85.12px;
+    }
+
+    .roadmap-milestone-card {
+        
+        padding: 5.69px 5.69px 5.38px 5.12px;
+        border-radius: 0 3.79px 3.79px 3.79px;
+    }
+
+    .technical-roadmap-quarter {
+        width: 48.79px;
+        font-size: 7.01px;
+        padding: 4.86px 5.9px 3.5px 5.9px;
+        border-radius: 3.79px 3.79px 0 0;
+    }
+
+    .roadmap-milestone-title-primary {
+        font-size: 8.67px;
+    }
+
+    .roadmap-milestone-title {
+        font-size: 8.67px;
+        padding-top: 7.58px;
+    }
+
+    .roadmap-milestone-subtitle {
+        font-size: 3.8px;
+    }
+
+    .roadmap-milestone-header h6 {
+        width: 18.41px;
+        height: 7.3px;
+        padding: 2.48px 4.98px 0 4.98px;
+        font-size: 3.21px;
+        border-radius: 0 3.79px 0 0;
+    }
+
+    .technical-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .roadmap-milestone-card {
+        
+    }
+    .technical-container {
+        
+        
+    }
+
+    .tech-card {
+        flex: 1 1 calc(32% - 64px); 
+        min-width: 120px;
+    }
+
+    
+    .roadmap-connection-svg-one,
+    .roadmap-connection-svg-two,
+    .roadmap-connection-svg-four,
+    .roadmap-connection-svg-five,
+    .roadmap-connection-svg-seven,
+    .roadmap-connection-svg-eight {
+        width: 50px;
+        right: -25%;
+    }
+
+    .roadmap-connection-svg-three{
+        width: 80%;
+        margin-left: 4%;
+        margin-right: 1%;
+        margin-top: -3.5%;
+    }
+    .roadmap-connection-svg-six {
+        width: 80%;
+        height: 150px;
+        margin-left: 4%;
+        margin-right: 1%;
+        
+        margin-top: -3.5%;
+    }
+
+
+    .black-gamex-paragraph {
+        font-size: 10px;
+        max-width: 103px;
+    }
+
+    .black-bg {
+        max-height: 213px;
+    }
+
+
+
+    
+    .team-advise-partner {
+        clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+    }
+
+    .gamesta-team-container {
+        max-width: 100%;
+        padding-top: 63px;
+    }
+
+    .gamesta-team-column-two {
+        margin-top: 0;
+    }
+
+    .gamesta-team-member-card {
+        max-height: 100%;
+    }
+
+    .gamesta-team-container h1 {
+        font-size: 40px;
+        padding-left: 0;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .gamesta-card-container {
+        padding: 0 16px 0 16px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gamesta-team-column-three {
+        margin-left: 0;
+    }
+
+    
+    .advisors-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+    }
+
+    .advisor-card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .advisor-card {
+        max-width: 100%;
+    }
+
+    
+    .partner {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+
+    }
+
+    .partner-icon {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .partner-investor-brand-icon {
+        width: 100%;
+    }
+
+    
+    .blog-join {
+        clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
+        margin-top: 60px;
+
+    }
+
+    .gamesta-blog-container {
+        max-width: 100%;
+        padding: 0 16px 0 16px;
+    }
+
+    .gamesta-logo {
+        padding-top: 60px;
+        width: 242px;
+    }
+
+    .blog {
+        font-size: 48px;
+        padding-left: 39%;
+    }
+
+    .gamesta-blog-card-container {
+        max-width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gamesta-blog-card,
+    .gamesta-blog-card img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    
+    .join {
+        width: 344.66px;
+        height: 100%;
+        background-image: url('./images/Vector (13).png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0 16px 0 16px;
+    }
+
+    .community-container {
+        max-width: 100%;
+        margin-top: 0;
+        
+        
+        
+    }
+
+    .community {
+        max-width: 100%;
+        font-size: 25.48px;
+        max-width: 208px;
+        margin: 0 auto;
+        padding-top: 12%;
+    }
+
+    .twitter-icon-image {
+        max-width: 53.29px;
+        max-height: 35.84px;
+        top: 27%;
+
+    }
+
+    .telegram-icon-image {
+        max-width: 53.29px;
+        max-height: 35.84px;
+        top: 50%;
+        right: 0%;
+    }
+
+    .youtube-icon-image {
+        max-width: 62.45px;
+        max-height: 35.84px;
+        top: 38%;
+        right: 7%;
+    }
+
+    .community-decoration-svg-one,
+    .community-decoration-svg-two {
+        display: none;
+    }
+
+    
+    footer {
+        clip-path: polygon(0 11%, 33% 5%, 35% 10%, 100% 2%, 100% 16%, 100% 15%, 100% 100%, 82% 100%, 85% 100%, 15% 100%, 19% 100%, 0 100%);
+        height: 352px;
+
+    }
+
+    .footer-container {
+        flex-direction: column-reverse;
+        padding: 0 16px 0 16px;
+        
+        
+        position: relative;
+    }
+
+    .logo-copyright img {
+        display: none;
+    }
+
+    .logo-copyright {
+        padding-bottom: 20px;
+        padding-top: 8%;
+        padding-left: 69%;
+
+    }
+
+    .f-content-container {
+        padding-top: 0;
+        padding-bottom: 0;
+        gap: 53px;
+        position: relative;
+    }
+
+    .f-icon-btn {
+        padding-top: 0;
+    }
+
+    .logo-copyright p {
+        text-align: right;
+    }
+
+    .footer-social-icons-wrapper {
+        padding-top: 42%;
+    }
+
+    .f-icon-btn {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-desktop-button-container {
+        position: absolute;
+        bottom: 6%;
+        left: 5%;
+    }
+}
+
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    nav {
+        max-width: 100%;
+        gap: 40px;
+    }
+
+    .logo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-items {
+        gap: 8px;
+    }
+
+    .nav-items a {
+        font-size: 10px !important;
+
+    }
+
+    .hero {
+        
+        height: 100%;
+    }
+
+    .hero-bg {
+        height: 130%;
+        clip-path: polygon(0 0, 100% 0, 100% 76%, 0% 82%);
+    }
+
+    .hero-container {
+        padding: 125px 10px 450px 10px;
+    }
+
+    .hero-background-abstract {
+        max-width: 674px;
+        top: 48%;
+        right: 12%;
+    }
+
+    
+    .blog-join {
+        clip-path: polygon(0 1%, 17% -8%, 100% -113%, 100% 19%, 71% 13%, 100% 18%, 100% 100%, 84% 100%, 85% 100%, 50% 100%, 53% 100%, 0 100%);
+    }
+
+
+    
+    .dapp-bg {
+        clip-path: polygon(0 0, 100% 0, 100% 99%, 0% 99%);
+    }
+
+    .gamesta-dapp-container {
+        max-width: 100%;
+        padding: 315px 10px 0 10px;
+    }
+
+    .dapp-decoration-svg {
+        top: 33%;
+        left: -27%;
+    }
+
+    .dapp-launch-group-container {
+        top: 32%;
+        right: 0%;
+    }
+
+    .dapp-card-container {
+        column-gap: 50px;
+    }
+
+
+    
+    .future-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .future-title {
+        font-size: 60px;
+        text-align: start;
+    }
+
+    .future-applications-button-wrapper {
+        text-align: start;
+    }
+
+    .future-card-container {
+        padding: 0 10px;
+        margin-bottom: 245px;
+    }
+
+    .future-app-card-type-one,
+    .future-app-card-type-two,
+    .future-app-card-type-three,
+    .future-app-card-type-four {
+        width: 100px;
+        height: 100%;
+        padding: 18px;
+    }
+
+    .future-app-card-icon {
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+    .future-app-card-paragraph {
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    
+    .play-bg {
+        max-width: 100%;
+    }
+
+    .play-earn-heading-secondary {
+        font-size: 110px;
+    }
+
+    .play-earn-heading-primary {
+        font-size: 90px;
+    }
+
+    .play2earn {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .play-2-card-container {
+        column-gap: 15px;
+        row-gap: 15px;
+        padding-bottom: 0;
+    }
+
+    .play-earn-article-text {
+        font-size: 12px;
+    }
+
+    .dapp-icon {
+        max-width: 48px;
+        max-height: 48px;
+    }
+
+    .play-card {
+        width: 100%;
+    }
+
+    
+    .eco-container {
+        max-width: 100%;
+    }
+
+    .ecosystem-heading-primary {
+        font-size: 60px;
+    }
+
+    .eco-content {
+        padding-left: 15%;
+    }
+
+    .gsg-container {
+        max-width: 100%;
+    }
+
+    .gsg-token-container {
+        max-width: 100%;
+        margin-top: 30%;
+    }
+
+    .gsg-token-background-image {
+        max-width: 55%;
+    }
+
+    .gsg-token-paragraph-primary {
+        top: -48%;
+        right: 0%;
+    }
+
+    .gsg-token-prefix {
+        font-size: 14px;
+        top: 34%;
+        left: 20%;
+    }
+
+    .gsg-token-symbol {
+        font-size: 40px;
+        top: 36%;
+        left: 17%;
+    }
+
+    .gsg-token-text-container {
+        width: 74%;
+        top: 55%;
+        right: -3%;
+    }
+
+    .gsg-token-text-line-one h1 {
+        max-width: 43%;
+        font-size: 20px;
+        padding: 5.06px 4.52px 5.58px 9.11px;
+    }
+
+    .gsg-token-text-line-two h1 {
+        max-width: 54%;
+        margin-left: 21%;
+        margin-top: -4%;
+        font-size: 20px;
+        padding: 5.06px 4.52px 5.58px 9.11px;
+    }
+
+    .gsg-token-text-line-three h1 {
+        max-width: 54%;
+        margin-left: 35%;
+        margin-top: -2%;
+        font-size: 20px;
+        padding: 5.06px 4.52px 5.58px 9.11px;
+    }
+
+    .gsg-token-paragraph-secondary {
+        bottom: -14%;
+        left: 0%;
+        width: 207px;
+        font-size: 12px;
+    }
+
+    
+    .distribution-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .dist-title {
+        padding-top: 11%;
+    }
+
+    .distribution-content-primary img,
+    .distribution-content-secondary img {
+        max-width: 50%;
+    }
+
+    .distribution-paragraph {
+        left: 25% !important;
+    }
+
+
+    
+    .agency-container {
+        max-width: 100%;
+    }
+
+    .agency-background-shape {
+        max-width: 100%;
+    }
+
+    .agency-bg img {
+        max-width: 100%;
+    }
+
+    .agency-artboard-image {
+        max-width: 50%;
+        left: 25%;
+    }
+
+    .agency-description-heading {
+        left: 21%;
+        top: 51%;
+    }
+
+    .agency-description-paragraph {
+        top: 70%;
+        left: 14%;
+    }
+
+    .agency-rectangle-decoration-two {
+        left: 1%;
+    }
+
+    
+    .incubation-section-title {
+        font-size: 60px;
+    }
+
+    .incubation {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    
+    .black-container {
+        padding: 0 10px;
+    }
+
+
+    
+    .technical-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .roadmap-milestone-card {
+        width: 100%;
+    }
+    .technical-container {
+        
+        
+    }
+
+    .tech-card {
+        flex: 1 1 calc(32% - 64px); 
+        min-width: 160px;
+    }
+
+    
+    .roadmap-connection-svg-one,
+    .roadmap-connection-svg-two,
+    .roadmap-connection-svg-four,
+    .roadmap-connection-svg-five,
+    .roadmap-connection-svg-seven,
+    .roadmap-connection-svg-eight {
+        width: 70px;
+        right: -25%;
+    }
+
+    .roadmap-connection-svg-three{
+        width: 754px;
+        margin: 0 auto;
+        margin-top: -1.5%;
+    }
+    .roadmap-connection-svg-six {
+        width: 754px;
+        height: 220px;
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -12.5%;
+    }
+
+
+
+    
+
+    
+    .gamesta-card-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .gamesta-team-column-three {
+        margin-left: 0;
+    }
+
+    .gamesta-team-member-card img {
+        max-width: 50%;
+    }
+
+    .gamesta-team-column-two {
+        margin-top: 0;
+    }
+
+    
+    .advisors-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .advisor-card img {
+        max-width: 60%;
+    }
+
+    
+    .partner {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .partner-icon {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .gamesta-blog-container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+
+    .gamesta-blog-card,
+    .gamesta-blog-card img {
+        max-width: 100%;
+    }
+
+    .community-container {
+        margin-top: 179.6px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .f-content-container {
+        gap: 15px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1350px) {
+    nav {
+        max-width: 100%;
+        gap: 60px;
+    }
+
+    .nav-items {
+        gap: 10px;
+    }
+
+    .hero {
+        margin-top: -9.5%;
+    }
+
+    .hero-container {
+        padding-left: 10px;
+    }
+
+    .hero-images-container {
+        max-width: 100%;
+        bottom: -8%;
+        right: 3%;
+        z-index: 7;
+    }
+
+    .hero-character-front {
+        max-width: 70%;
+        top: 0%;
+        right: -33%;
+    }
+
+    .hero-decoration-orb {
+        max-width: 57%;
+        top: -30%;
+        right: -9%;
+    }
+
+    .hero-background-abstract {
+        max-width: 551px;
+        top: 40%;
+        right: 18px;
+        z-index: 2;
+    }
+
+    .img-4 {
+        max-width: 53%;
+        top: -43%;
+        left: 46%;
+    }
+
+    .dapp-bg {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 99%);
+    }
+
+    .gamesta-dapp-container {
+        padding: 160px 10px 0 10px;
+    }
+
+    .future-container {
+        padding: 0 10px;
+    }
+
+    .play2earn {
+        padding: 0 10px;
+    }
+
+    .play-2-card-container {
+        column-gap: 20px;
+    }
+
+    .eco-container {
+        padding: 0 10px;
+    }
+
+    .distribution-container {
+        padding: 0 10px;
+    }
+
+    .distribution-content {
+        gap: 20px;
+    }
+
+    .black-container {
+        padding: 0 10px;
+    }
+
+    .gamesta-card-container,
+    .advisors-container {
+        padding: 0 10px;
+    }
+
+    .partner {
+        padding: 0 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gamesta-blog-container {
+        padding: 0 10px;
+    }
+
+    .gamesta-blog-card,
+    .gamesta-blog-card img {
+        max-width: 100%;
+    }
+
+    .community-container {
+        
+    }
+
+    .technical-container {
+        padding: 0 10px;
+    }
+
+    .roadmap-milestone-card {
+        
+    }
+
+    .card-img {
+        right: 0%;
+    }
+
+    .game-title {
+        padding-left: 10px;
+    }
+
+    .games-carousel-container {
+        padding: 0 10px;
+        gap: 8px;
+    }
+
+
+    .technical-container {
+        max-width: 1000px;
+        
+    }
+
+    .tech-card {
+        flex: 1 1 calc(32% - 64px); 
+        min-width: 160px;
+    }
+
+    
+    .roadmap-connection-svg-one,
+    .roadmap-connection-svg-two,
+    .roadmap-connection-svg-four,
+    .roadmap-connection-svg-five,
+    .roadmap-connection-svg-seven,
+    .roadmap-connection-svg-eight {
+        width: 70px;
+        right: -25%;
+    }
+
+    .roadmap-connection-svg-three{
+        width: 854px;
+        margin: 0 auto;
+    }
+    .roadmap-connection-svg-six {
+        width: 854px;
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -9.5%;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 1450px) and (max-width: 2560px) {
+
+
+    .future-card-container {
+        width: 1145px;
+        padding-left: 80px;
+        margin-bottom: 425px;
+        display: flex;
+        
+        position: relative;
+    }
+
+    .technical-card-container {
+        width: 1174px;
+    }
+
+    .black-container {
+        width: 1055px;
+        padding: 0 151px 0 200px;
+    }
 }
