@@ -1639,3 +1639,29 @@ letter-spacing: 0%;
 color: #38484E;
 max-width: 370px;
 }
+
+/* advisors */
+
+.advisors-container{
+    padding-top: 100px;
+    padding-left: 132px;
+}
+.head-title{
+    font-family: var(--font-neue-machina);
+font-weight: 900;
+font-size: 36px;
+line-height: 100%;
+letter-spacing: 10%;
+text-transform: uppercase;
+margin: 0;
+margin-bottom: 46px;
+
+}
+
+.advisor-card-container{
+    display: flex;
+    gap: 56px;
+}
+.advisor-card{
+    max-width: 250px;
+}
