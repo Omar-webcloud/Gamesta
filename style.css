@@ -1651,7 +1651,6 @@ nav {
 .gamesta-team-container h1 {
     font-family: var(--font-neue-machina-normal);
     font-weight: var(--font-base-weight);
-    font-style: Medium;
     font-size: 72px;
     line-height: 120%;
     letter-spacing: 0%;
@@ -1687,9 +1686,7 @@ nav {
 
 
 /* Advisors Section */
-.advisors-section {
-    
-}
+
 
 .advisors-container {
     max-width: 1152px;
@@ -1700,7 +1697,6 @@ nav {
 .advisor-card-container {
     display: flex;
     gap: 56px;
-    
     justify-content: space-between;
 }
 
@@ -1746,10 +1742,6 @@ nav {
 
 
 /* Partners & Investors Section */
-.partners-investors-section {
-    
-
-}
 
 .partner {
     max-width: 1174px;
@@ -1804,7 +1796,7 @@ nav {
 
 
 
-/* Blog Section */
+/* Blog  */
 .gamesta-blog-container {
     max-width: 1174px;
     margin: 0 auto;
@@ -1914,7 +1906,7 @@ nav {
     height: 135px;
     position: absolute;
     top: 19%;
-    right: -7.75%;
+    right: -11.75%;
     z-index: 3;
 }
 
