@@ -999,7 +999,7 @@ nav {
 
 .gsg-token-paragraph-secondary {
     position: absolute;
-    font-family: var(--font-Euclid);
+    font-family: var(--font-abz);
     font-weight: var(--font-base-weight);
     font-size: 14px;
     line-height: 130%;
@@ -1549,7 +1549,7 @@ nav {
 }
 
 .technical-roadmap-quarter {
-    width: 126px;
+    max-width: 170px;
     background: #00B3E8;
     margin: 0;
     font-family: var(--font-neue-machina);
