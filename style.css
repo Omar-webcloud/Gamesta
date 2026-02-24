@@ -2429,6 +2429,7 @@ footer {
     .play-bg {
         height: 100%;
         position: relative;
+        width: 40%;
     }
 
     .play-earn-heading-secondary {
@@ -2442,6 +2443,7 @@ footer {
         
         position: absolute;
         right: 0%;
+        top: 135px;
         font-size: 30.21px;
         margin: 0;
         padding-top: 5%;
@@ -2827,7 +2829,7 @@ footer {
         border-radius: 0 3.79px 3.79px 3.79px;
     }
 
-    .technical-roadmap-quarter {
+    /* .technical-roadmap-quarter {
         width: 48.79px;
         font-size: 7.01px;
         padding: 4.86px 5.9px 3.5px 5.9px;
@@ -2853,7 +2855,7 @@ footer {
         padding: 2.48px 4.98px 0 4.98px;
         font-size: 3.21px;
         border-radius: 0 3.79px 0 0;
-    }
+    } */
 
     
     .technical-container {
@@ -3785,7 +3787,7 @@ footer {
         
     }
 
-    .tech-card {
+    /* .tech-card {
         width: 85.12px;
     }
 
@@ -3821,7 +3823,7 @@ footer {
         padding: 2.48px 4.98px 0 4.98px;
         font-size: 3.21px;
         border-radius: 0 3.79px 0 0;
-    }
+    } */
 
     .technical-container {
         max-width: 100%;
@@ -4706,4 +4708,19 @@ footer {
         .play-earn-heading-secondary{
             font-size: 129px;
         }
+}
+
+@media (max-width:776px) {
+    .tech-card{width: 100%;}
+
+    .technical-card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+    .technical-card-container > .roadmap-connection-svg-one, .technical-card-container > .roadmap-connection-svg-two,  .technical-card-container > .roadmap-connection-svg-four, .technical-card-container > .roadmap-connection-svg-five,  .technical-card-container > .roadmap-connection-svg-seven, .technical-card-container > .roadmap-connection-svg-eight {
+    transform: rotate(90deg);
+    padding-bottom: 40px;
+    padding-bottom: 40px;
+}
 }
