@@ -1446,7 +1446,7 @@ nav {
 /* Technical Roadmap */
 .technical-container {
     max-width: 1174px;
-    padding: 0 133px 0 133px;
+    padding: 0 133px 50px 133px;
     margin: 0 auto;
 }
 
