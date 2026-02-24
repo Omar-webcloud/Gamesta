@@ -2755,6 +2755,9 @@ footer {
     .tick-list li::before {
         left: 16%
     }
+    .tick-list li {
+    font-size: 14px;
+}
 
     
     .black-container {
@@ -2809,15 +2812,8 @@ footer {
         margin-bottom: 20px;
     }
 
-    .technical-card-container {
-        
-        
-        
-    }
 
-    .tech-card {
-        
-    }
+    
 
     .roadmap-milestone-card {
         
@@ -4463,6 +4459,7 @@ footer {
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
+        margin-bottom: 30px;
     }
 
 
@@ -4588,6 +4585,8 @@ footer {
 
     .gamesta-blog-container {
         padding: 0 10px;
+        padding-top: 80px;
+        margin-bottom: 300px;
     }
 
     .gamesta-blog-card,
@@ -4595,17 +4594,12 @@ footer {
         max-width: 100%;
     }
 
-    .community-container {
-        
-    }
+    
 
     .technical-container {
         padding: 0 10px;
     }
 
-    .roadmap-milestone-card {
-        
-    }
 
     .card-img {
         right: 0%;
