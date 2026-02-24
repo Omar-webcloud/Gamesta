@@ -1276,7 +1276,7 @@ nav {
 }
 
 .incubation-description-paragraph {
-    font-family: var(--font-Euclid);
+    font-family: var(--font-abz);
     font-weight: var(--font-base-weight);
     font-style: normal;
     font-size: 24px;
@@ -1311,7 +1311,7 @@ nav {
 .tick-list li {
     position: relative;
     padding-left: 32px;
-    font-family: var(--font-Euclid);
+    font-family: var(--font-abz);
     font-weight: 400;
     font-size: 18px;
     line-height: 130%;
