@@ -2136,6 +2136,9 @@ footer {
         margin-top: 48px;
         margin-bottom: 20px;
     }
+    .hero-com-btn {
+    gap: 6px;
+}
 
     .hero-community-button {
         width: 106.33px !important;
