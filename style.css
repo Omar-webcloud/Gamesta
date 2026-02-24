@@ -1313,7 +1313,7 @@ nav {
 
 .tick-list li {
     position: relative;
-    padding-left: 25px;
+    padding-left: 30px;
     font-family: var(--font-Euclid);
     font-weight: 400;
     font-size: 18px;
@@ -1324,7 +1324,7 @@ nav {
 }
 
 .tick-list li::before {
-    content: "✔";
+    content: url(images/blue-tick.png);
     position: absolute;
     left: 0;
     color: #00B3E8;
@@ -1630,7 +1630,7 @@ nav {
 }
 
 
-/* Team, Advisors, and Partners Wrapper */
+/* Team, Advisors and Partners Wrapper */
 .team-advise-partner {
     background: linear-gradient(180deg, #F5F9FA 0%, rgba(245, 249, 250, 0) 100%);
     clip-path: polygon(0 0, 18% 1%, 100% 5%, 100% 19%, 71% 13%, 100% 18%, 100% 100%, 84% 100%, 85% 100%, 50% 100%, 53% 100%, 0 100%);
