@@ -862,10 +862,6 @@ nav {
 
 
 
-
-
-
-
 /* Ecosystem & Treasury */
 .eco-container {
     max-width: 1440px;
@@ -890,7 +886,7 @@ nav {
 }
 
 .eco-para {
-    font-family: var(--font-Euclid);
+    font-family: var(--font-abz);
     font-weight: 400;
     font-size: 24px;
     line-height: 140%;
@@ -988,9 +984,8 @@ nav {
 
 .gsg-token-paragraph-primary {
     position: absolute;
-    font-family: var(--font-Euclid);
+    font-family: var(--font-abz);
     font-weight: var(--font-base-weight);
-    font-style: Regular;
     font-size: 14px;
     line-height: 130%;
     letter-spacing: 0%;
