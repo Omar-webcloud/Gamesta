@@ -4330,7 +4330,9 @@ footer {
         left: 25% !important;
     }
 
-   
+   .black-gamex-paragraph a{
+        padding-bottom: 5px !important; 
+    }
     
     .agency-container {
         max-width: 100%;
@@ -4685,6 +4687,9 @@ footer {
 
 /* more responsive */
 @media (max-width: 376px) {
+    .black-gamex-paragraph a{
+        padding-bottom: 7px !important; 
+    }
     .eco-para{
         padding-bottom: 65px;
     }
