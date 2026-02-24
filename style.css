@@ -1409,12 +1409,14 @@ nav {
 
 .black-gamex-paragraph span a {
     color: #00B3E8;
-    z-index: 1;
+    z-index: 10000;
     position: relative;
-    text-decoration: none;
+    text-decoration: underline;
+    display: inline-block;
+    
 }
 
-.black-gamex-paragraph span a::after {
+/* .black-gamex-paragraph span a::after {
     content: "";
     position: absolute;
     left: 0;
@@ -1425,8 +1427,11 @@ nav {
     height: 2px;
     background-color: #00B3E8;
     z-index: -1;
+} */
+.black-gamex-paragraph span a:hover{
+ background-color: rgba(169, 169, 169, 0.137);
+  cursor: pointer;
 }
-
 
 .black-p-container {
     margin-top: 21%;
