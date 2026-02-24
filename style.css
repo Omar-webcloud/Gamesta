@@ -4328,7 +4328,9 @@ footer {
         left: 25% !important;
     }
 
-
+   .black-gamex-paragraph span a{
+        padding-bottom: 5px;
+    }
     
     .agency-container {
         max-width: 100%;
@@ -4690,7 +4692,5 @@ footer {
         padding-top: 40px;
         padding-bottom: 30px;
     }
-    .black-gamex-paragraph span a{
-        padding-bottom: 5px;
-    }
+    
 }
