@@ -532,6 +532,13 @@ nav {
     border-radius: 6px;
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.future-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 10px 20px 0px #00B3E860;
+    filter: brightness(1.1);
 }
 
 .future-card-container {
@@ -1245,6 +1252,13 @@ nav {
     border: none;
     text-align: center;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.agency-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 10px 20px 0px #00B3E860;
+    filter: brightness(1.1);
 }
 
 
