@@ -4700,3 +4700,10 @@ footer {
     }
     
 }
+
+
+@media (max-width:1440px) {
+        .play-earn-heading-secondary{
+            font-size: 129px;
+        }
+}
