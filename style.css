@@ -2497,6 +2497,8 @@ footer {
     .game-title,
     .games-carousel-container {
         padding-left: 16px;
+                overflow-x: auto !important;
+                /* white-space: auto; */
     }
 
     
