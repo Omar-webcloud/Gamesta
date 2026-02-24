@@ -3158,9 +3158,8 @@ footer {
     }
     .hero-background-abstract{
         width: 400px;
-        right: 20%;
-        top: 35%;
-
+        right: 46%;
+        top: 64%;
 
     }
 
@@ -3255,13 +3254,15 @@ footer {
     }
 
     .hero-images-container img {
-        max-width: 100%;
+       max-width: 80%;
+        left: 65px;
     }
 
     .hero-decoration-orb {
         width: 70%;
         top: 5%;
         right: 6%;
+        display: none;
     }
 
     
@@ -3314,9 +3315,9 @@ footer {
     }
 
     .dapp-launch-group-container {
-        width: 30%;
-        top: 4%;
-        right: 9%;
+                width: 30%;
+        top: 23%;
+        right: 3%;
     }
 
     .dapp-card-container {
@@ -3859,7 +3860,7 @@ footer {
         height: 150px;
         margin-left: 4%;
         margin-right: 1%;
-        
+        padding-top:30px ;
         margin-top: -3.5%;
     }
 
@@ -4324,13 +4325,17 @@ footer {
         padding-top: 11%;
     }
 
-    .distribution-content-primary img,
+    
     .distribution-content-secondary img {
         max-width: 50%;
     }
 
     .distribution-paragraph {
         left: 25% !important;
+        font-size: 18px;
+    }
+    .percent-distribution-paragraph{
+        font-size: 14px;
     }
 
    .black-gamex-paragraph a{
@@ -4702,7 +4707,11 @@ footer {
     }
     
 }
-
+@media (max-width:576px) {
+    .roadmap-connection-svg-six{
+        padding-top:20px ;
+    }
+}
 
 @media (max-width:1440px) {
         .play-earn-heading-secondary{
@@ -4724,3 +4733,4 @@ footer {
     padding-bottom: 40px;
 }
 }
+
