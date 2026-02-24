@@ -1047,6 +1047,7 @@ nav {
     letter-spacing: 0%;
     color: var(--font-primary-font-color);
     margin-top: 32.77px;
+    padding-left: 40px;
 }
 
 .distribution-twenty-percent-image {
