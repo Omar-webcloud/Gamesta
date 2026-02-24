@@ -4679,3 +4679,13 @@ footer {
         padding: 0 151px 0 200px;
     }
 }
+
+
+/* more responsive */
+@media (max-width: 376px) {
+    
+    .gsg-token-background-image{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+}
