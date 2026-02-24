@@ -2864,12 +2864,9 @@ footer {
     }
 
     .roadmap-milestone-card {
-        
+        min-height: 100px;
     }
-    .technical-container {
-        
-        
-    }
+    
 
     .tech-card {
         flex: 1 1 calc(32% - 64px); 
@@ -4726,6 +4723,9 @@ footer {
     display: flex;
     flex-direction: column;
 }
+   .roadmap-milestone-card {
+        min-height: 150px;
+    }
 
     .technical-card-container > .roadmap-connection-svg-one, .technical-card-container > .roadmap-connection-svg-two,  .technical-card-container > .roadmap-connection-svg-four, .technical-card-container > .roadmap-connection-svg-five,  .technical-card-container > .roadmap-connection-svg-seven, .technical-card-container > .roadmap-connection-svg-eight {
     transform: rotate(90deg);
