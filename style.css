@@ -3870,7 +3870,9 @@ footer {
         max-height: 213px;
     }
 
-
+   .black-gamex-paragraph a{
+        padding-bottom: 5px !important; 
+    }
 
     
     .team-advise-partner {
@@ -4328,9 +4330,7 @@ footer {
         left: 25% !important;
     }
 
-   .black-gamex-paragraph span a{
-        padding-bottom: 5px;
-    }
+   
     
     .agency-container {
         max-width: 100%;
