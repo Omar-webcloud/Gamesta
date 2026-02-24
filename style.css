@@ -3970,7 +3970,7 @@ footer {
     .gamesta-blog-card-container {
         max-width: 100%;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
     }
 
     .gamesta-blog-card,
