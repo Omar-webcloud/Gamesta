@@ -4683,9 +4683,11 @@ footer {
 
 /* more responsive */
 @media (max-width: 376px) {
-    
+    .eco-para{
+        padding-bottom: 65px;
+    }
     .gsg-token-background-image{
-        padding-top: 20px;
+        padding-top: 40px;
         padding-bottom: 30px;
     }
 }
