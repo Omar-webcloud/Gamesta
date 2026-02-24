@@ -1306,14 +1306,15 @@ nav {
     padding-left: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 113px;
-    row-gap: 23px;
+    column-gap: 75px;
+    row-gap: 25px;
     margin: 0;
+    max-width: 605px;
 }
 
 .tick-list li {
     position: relative;
-    padding-left: 30px;
+    padding-left: 32px;
     font-family: var(--font-Euclid);
     font-weight: 400;
     font-size: 18px;
