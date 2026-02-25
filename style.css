@@ -768,7 +768,7 @@ nav {
 
 .play-earn-info-subtitle {
     text-align: center;
-    font-family: var(--font-Euclid);
+    font-family: var(--font-abz);
     font-weight: 400;
     font-style: Regular;
     font-size: 24px;
@@ -780,7 +780,7 @@ nav {
 }
 
 .play-details {
-    font-family: var(--font-Euclid);
+    font-family: var(--font-abz);
     font-weight: 400;
     font-size: 16px;
     line-height: 130%;
@@ -1055,7 +1055,7 @@ nav {
 }
 
 .distribution-paragraph {
-    font-family: var(--font-Euclid);
+    font-family: var(--font-abz);
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
@@ -1097,7 +1097,7 @@ nav {
 }
 
 .percent-distribution-paragraph {
-    font-family: var(--font-Euclid);
+    font-family: var(--font-abz);
     font-weight: 400;
     font-size: 14px;
     line-height: 133%;
@@ -2466,7 +2466,7 @@ footer {
     }
 
     .play-earn-heading-secondary {
-        width: 359px;
+        width: 100%;
         font-size: 45.32px;
         letter-spacing: 0.1em;
         opacity: 0.2;
@@ -2476,7 +2476,7 @@ footer {
         
         position: absolute;
         right: 0%;
-        top: 135px;
+        top: 3px;
         font-size: 30.21px;
         margin: 0;
         padding-top: 5%;
@@ -2534,7 +2534,10 @@ footer {
     .games-carousel-container {
         padding-left: 16px;
                 overflow-x: auto !important;
-                /* white-space: auto; */
+                overflow-y: hidden;
+    }
+    .games-carousel-container{
+         padding-top: 20px;
     }
 
     
@@ -3108,8 +3111,8 @@ footer {
     
     footer {
         clip-path: polygon(0 11%, 33% 5%, 35% 10%, 100% 2%, 100% 16%, 100% 15%, 100% 100%, 82% 100%, 85% 100%, 15% 100%, 19% 100%, 0 100%);
-        height: 375px;
-
+        /* height: 375px; */
+        padding-bottom: 35px;
     }
 
     .footer-container {
@@ -3125,7 +3128,7 @@ footer {
     }
 
     .logo-copyright {
-        padding-bottom: 13px;
+        /* padding-bottom: 13px; */
         padding-top: 38px;
         padding-left: 69%;
 
@@ -3491,7 +3494,7 @@ footer {
     }
 
     .play-earn-heading-secondary {
-        font-size: 53px;
+        font-size:45px;
     }
 
     .play-earn-info-subtitle {
@@ -3531,7 +3534,16 @@ footer {
     .games-carousel-container {
         padding-left: 16px;
     }
-
+     .game-title,
+    .games-carousel-container {
+        padding-left: 16px;
+                overflow-x: auto !important;
+                overflow-y: hidden;
+       
+    }
+    .games-carousel-container{
+         padding-top: 20px;
+    }
     
     .eco-container {
         max-width: 100%;
@@ -4702,7 +4714,9 @@ footer {
 
 @media only screen and (min-width: 1450px) and (max-width: 2560px) {
 
-
+     .play-earn-heading-secondary{
+            font-size: 129px;
+        }
     .future-card-container {
         width: 1145px;
         padding-left: 80px;
@@ -4747,12 +4761,25 @@ footer {
     .roadmap-connection-svg-six{
         padding-top:20px ;
     }
+    .dapp-card-description{
+        font-size: 14px;
+    }
+    .dapp-card-title{
+        font-size: 24px;
+    }
 }
 
-@media (max-width:1440px) {
-        .play-earn-heading-secondary{
-            font-size: 129px;
-        }
+@media (max-width:1040px) {
+       .game-title,
+    .games-carousel-container {
+        padding-left: 16px;
+                overflow-x: auto !important;
+                overflow-y: hidden;
+    }
+    .games-carousel-container{
+         padding-top: 20px;
+    }
+
 }
 
 @media (max-width:776px) {
