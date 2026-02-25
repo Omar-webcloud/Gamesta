@@ -399,6 +399,7 @@ nav {
     line-height: 130%;
     letter-spacing: 0%;
     color: #38484E;
+    margin-top: 12px;
 
 
 }
@@ -822,7 +823,7 @@ nav {
 .play-earn-article-text {
     font-family: var(--font-abz);
     font-weight: 400;
-
+    margin-top: 12px;
     font-size: 16px;
 
     line-height: 130%;
@@ -1343,11 +1344,12 @@ nav {
 }
 
 .tick-list li::before {
-    content: url(images/blue-tick.png);
+    content: url(images/check-fill.png);
     position: absolute;
     left: 0;
     color: #00B3E8;
     font-weight: bold;
+    height: 24px;
 }
 
 
@@ -1693,7 +1695,7 @@ nav {
 
 .gamesta-team-member-card {
     max-width: 377px;
-    max-height: 483px;
+    height: 483px;
     margin-bottom: 64px;
 }
 
@@ -1874,7 +1876,16 @@ nav {
 
 
 }
+.team-member-description2 {
+    font-family: var(--font-abz);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #38484E;
+   margin-top: 12px;
 
+}
 
 
 /* Join Community Section */
