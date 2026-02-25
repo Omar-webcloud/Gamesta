@@ -4737,6 +4737,12 @@ footer {
     }
     
 }
+@media (max-width: 330px) {
+       .hero-character-background{
+    top: 25px;
+   }
+    
+}
 @media (max-width:576px) {
     .roadmap-connection-svg-six{
         padding-top:20px ;
