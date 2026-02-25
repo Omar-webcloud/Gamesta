@@ -1571,7 +1571,7 @@ nav {
 }
 
 .technical-roadmap-quarter {
-    max-width: 170px;
+    width: max-content;
     background: #00B3E8;
     margin: 0;
     font-family: var(--font-neue-machina);
@@ -1641,7 +1641,7 @@ nav {
 }
 
 .roadmap-milestone-subtitle {
-    font-family: var(--font-Euclid);
+    font-family: var(--font-abz);
     font-weight: 400;
     font-style: Regular;
     font-size: var(--font-base-size);
@@ -1740,7 +1740,7 @@ nav {
 }
 
 .team-member-role {
-    font-family: var(--font-Euclid);
+    font-family: var(--font-abz);
     font-weight: var(--font-base-weight);
     font-size: 14px;
     line-height: 130%;
@@ -1750,7 +1750,7 @@ nav {
 }
 
 .team-member-description {
-    font-family: var(--font-Euclid);
+    font-family: var(--font-abz);
     font-weight: 400;
     font-size: 12px;
     line-height: 130%;
@@ -1800,7 +1800,7 @@ nav {
 }
 
 .partner-investor-brand-icon {
-    width: 169px;
+    max-width: 169px;
     height: 109px;
     border: 1px solid #EEF3F5;
     border-radius: 4px;
@@ -1864,7 +1864,7 @@ nav {
 }
 
 .blog-post-date {
-    font-family: var(--font-Euclid);
+    font-family: var(--font-abz);
     font-weight: 400;
     font-style: Regular;
     font-size: 14px;
@@ -2071,7 +2071,7 @@ footer {
 
     nav {
         padding: 6px 12px;
-        margin-top: 18px;
+        margin-top: 0px;
         gap: 10px;
     }
 
