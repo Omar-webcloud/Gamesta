@@ -4404,6 +4404,11 @@ footer {
         max-width: 100%;
         padding: 0 10px;
     }
+    .distribution-content {
+        flex-direction: column;
+        max-width: 100%;
+        padding-top: 34px;
+    }
 
     .dist-title {
         padding-top: 11%;
