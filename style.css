@@ -458,7 +458,7 @@ nav {
 }
 
 .dapp-intro-paragraph {
-    font-family: var(--font-Euclid);
+    font-family: var(--font-abz);
     font-weight: 400;
     max-width: 658px;
     font-size: 24px;
@@ -2220,6 +2220,8 @@ footer {
         font-size: 16px;
         padding-left: 0;
         max-width: 343px;
+        margin-bottom: 24px;
+        margin-top: 0;
     }
 
     .title-btn,
@@ -2227,13 +2229,22 @@ footer {
     .hero-community {
         padding-left: 0;
     }
+    .hero-horizontal-buttons{
+        margin-bottom: 24px;
+    }
+    .title-btn{
+        margin: 0;
+        margin-bottom: 8px;
+    }
 
     .hero-buy-button-mexc {
         max-width: 124px;
+        height: 48px;
     }
 
     .hero-buy-button-quickswap {
         max-width: 163px;
+        height: 48px;
     }
 
     .hero-images-container {
@@ -2310,12 +2321,13 @@ footer {
         font-size: 40px;
         text-align: center;
         padding-left: 0;
-        font-family: Neue Machina;
+        font-family: var(--font-neue-machina);
         line-height: 100%;
         letter-spacing: 10%;
         text-align: center;
         text-transform: uppercase;
         padding-top: 10%;
+        margin-bottom: 8px;
 
     }
 
@@ -2364,6 +2376,7 @@ footer {
         max-width: 100%;
         grid-template-columns: 1fr;
         row-gap: 32px;
+        padding-top: 48px;
     }
 
     .dapp-card {
@@ -2391,6 +2404,7 @@ footer {
     .future-title {
         font-size: 30px;
         max-width: 201px;
+        margin-bottom: 13px;
     }
 
     .future-applications-button-wrapper {
@@ -2499,6 +2513,7 @@ footer {
         font-size: 45.32px;
         letter-spacing: 0.1em;
         opacity: 0.2;
+        /* margin-bottom: 23px; */
     }
 
     .play-earn-heading-primary {
@@ -2519,13 +2534,16 @@ footer {
     }
 
     .play-details {
-        padding-left: 6%;
+        padding-left: 39px;
         font-size: 14px;
+        padding-top: 24px;
     }
 
     .play-2-card-container {
         display: flex;
         flex-direction: column;
+        padding-top: 52px;
+        padding-bottom: 80px;
     }
 
     .play-card {
@@ -2592,13 +2610,16 @@ footer {
 
     .eco-para {
         font-size: 18px;
+        margin-top: 23.9px;
     }
 
     .gsg-token-paragraph-primary {
         font-size: 16px;
-        margin-left: 21%;
+        margin-left: 87px;
         max-width: 272px;
         top: -114%;
+        margin-top: 28px;
+        margin-bottom: 32px;
     }
 
     .gsg-container {
@@ -2670,6 +2691,7 @@ footer {
 
     .dist-title {
         font-size: 24px;
+        margin-top: 60px;
     }
 
     .distribution-content {
@@ -2701,12 +2723,20 @@ footer {
         left: 11% !important;
         top: 10% !important;
         font-size: 16px;
+        margin-bottom: 25px;
+        margin-top: 28px;
+        padding-left: 0;
     }
 
     .distribution-paragraph-secondary {
         padding-left: 0 !important;
+        margin-top: 24px !important;
+        margin-bottom: 24px !important;
     }
-
+    .percent-distribution-paragraph{
+        margin: 0;
+        margin-top: 18px !important;
+    }
     .percent {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -2809,6 +2839,7 @@ footer {
 
     .incubation-section-title {
         font-size: 40px;
+        margin-bottom: 12px;
     }
 
     .incubation-description-paragraph {
@@ -2849,7 +2880,7 @@ footer {
     .black-gamex-title-primary {
         position: absolute;
         top: 40%;
-        font-size: 24px;
+        font-size: 26px;
     }
 
     .black-gamex-title-secondary {
@@ -4820,6 +4851,7 @@ footer {
 
     .dapp-card-description {
         font-size: 14px;
+        margin-top: 8px;
     }
 
     .dapp-card-title {
