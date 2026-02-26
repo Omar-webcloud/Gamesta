@@ -77,7 +77,7 @@ nav {
 }
 
 .nav-items {
-    
+
     display: flex;
     gap: 37.5px;
     align-items: center;
@@ -109,7 +109,8 @@ nav {
     background-color: #9afcff;
 
 }
-.navigation-link-item:hover{
+
+.navigation-link-item:hover {
     color: #ebebeb;
 }
 
@@ -129,14 +130,17 @@ nav {
     border: none;
     cursor: pointer;
 }
-.desktop-btn:hover{
+
+.desktop-btn:hover {
     transform: scale(0.95);
     transition: ease-in-out 0.4s;
 }
-.hero-container button:hover{
+
+.hero-container button:hover {
     transform: scale(0.95);
     transition: ease-in-out 0.4s;
 }
+
 .toggle-btn {
     width: 28px;
     height: 22px;
@@ -230,7 +234,7 @@ nav {
     top: 29%;
     right: 7%;
     z-index: 2;
-    
+
 
 }
 
@@ -362,10 +366,10 @@ nav {
 /* Dapp Section */
 .dapp-bg {
     background: #F5F9FA;
-    
-    
 
-    
+
+
+
     clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 99%);
     margin-top: -100px;
 
@@ -462,7 +466,7 @@ nav {
     letter-spacing: 0%;
     color: var(--font-primary-font-color);
     padding-left: 15%;
-    
+
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -556,11 +560,11 @@ nav {
 }
 
 .future-card-container {
-    
+
     padding-left: 80px;
     margin-bottom: 425px;
     display: flex;
-    
+
     position: relative;
 }
 
@@ -694,7 +698,7 @@ nav {
 
 .future-app-card-paragraph {
     max-width: 187px;
-    margin-top:16px ;
+    margin-top: 16px;
     margin-bottom: 0px;
     font-family: var(--font-neue-machina);
     font-weight: 800;
@@ -740,7 +744,7 @@ nav {
 .play-bg {
     max-width: 1138px;
     height: 144px;
-    
+
     color: transparent;
 
     margin: 0 auto 18px auto;
@@ -756,7 +760,7 @@ nav {
     letter-spacing: 10%;
     text-transform: uppercase;
     transform: rotate(-3deg);
-    
+
     text-align: center;
     -webkit-text-stroke: 1px rgba(0, 179, 232, 1);
     opacity: 0.4;
@@ -933,7 +937,7 @@ nav {
 
 .gsg-token-container {
     margin-top: -8.5%;
-    
+
 }
 
 .gsg-token-background-image {
@@ -973,7 +977,7 @@ nav {
     position: absolute;
     top: 53%;
     right: 0%;
-    
+
     width: 882px;
 }
 
@@ -1080,7 +1084,7 @@ nav {
 }
 
 .distribution-twenty-percent-image {
-    
+
     left: 50%;
     transform: translateX(14%);
 }
@@ -1158,7 +1162,7 @@ nav {
     position: absolute;
     font-family: var(--font-neue-machina);
     font-weight: 900;
-    
+
     font-size: 208px;
     line-height: 100%;
     letter-spacing: 10%;
@@ -1179,7 +1183,7 @@ nav {
     width: 1103px;
     font-family: var(--font-neue-machina);
     font-weight: 900;
-    
+
     color: transparent;
     font-size: 208px;
     line-height: 100%;
@@ -1369,11 +1373,11 @@ nav {
 
 /* Black Gamex Card */
 .black-gamex-section {
-    
+
     height: 911px;
 
     position: relative;
-    
+
     overflow: visible;
     clip-path: polygon(0 0, 15% 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 79%, 85% 79%, 100% 79%, 58% 89%, 56% 82%, 0 92%);
 
@@ -1384,8 +1388,8 @@ nav {
 
 .black-bg {
     background: #1B1F21;
-    
-    
+
+
     clip-path: polygon(0 7%, 100% 18%, 100% 100%, 0 100%);
     height: 100%;
     width: 100%;
@@ -1450,7 +1454,7 @@ nav {
     position: relative;
     text-decoration: underline;
     display: inline-block;
-    
+
 }
 
 /* .black-gamex-paragraph span a::after {
@@ -1465,9 +1469,9 @@ nav {
     background-color: #00B3E8;
     z-index: -1;
 } */
-.black-gamex-paragraph span a:hover{
- background-color: rgba(169, 169, 169, 0.137);
-  cursor: pointer;
+.black-gamex-paragraph span a:hover {
+    background-color: rgba(169, 169, 169, 0.137);
+    cursor: pointer;
 }
 
 .black-p-container {
@@ -1480,7 +1484,7 @@ nav {
     top: 1%;
     right: -13%;
     z-index: 9999;
-    
+
 }
 
 
@@ -1494,48 +1498,48 @@ nav {
 
 .technical-card-container {
     display: flex;
-    flex-wrap: wrap;  
-    
-    justify-content: flex-start; 
+    flex-wrap: wrap;
+
+    justify-content: flex-start;
 }
 
 .tech-card {
-    flex: 1 1 calc(29% - 16px); 
-    box-sizing: border-box;     
-    min-width: 120px;           
+    flex: 1 1 calc(29% - 16px);
+    box-sizing: border-box;
+    min-width: 120px;
 }
 
 
 
 
-.technical-card-container > .roadmap-connection-svg-one,
-.technical-card-container > .roadmap-connection-svg-two,
-.technical-card-container > .roadmap-connection-svg-three,
-.technical-card-container > .roadmap-connection-svg-four,
-.technical-card-container > .roadmap-connection-svg-five,
-.technical-card-container > .roadmap-connection-svg-six,
-.technical-card-container > .roadmap-connection-svg-seven,
-.technical-card-container > .roadmap-connection-svg-eight {
-    flex: 0 0 auto; 
-    align-self: center; 
+.technical-card-container>.roadmap-connection-svg-one,
+.technical-card-container>.roadmap-connection-svg-two,
+.technical-card-container>.roadmap-connection-svg-three,
+.technical-card-container>.roadmap-connection-svg-four,
+.technical-card-container>.roadmap-connection-svg-five,
+.technical-card-container>.roadmap-connection-svg-six,
+.technical-card-container>.roadmap-connection-svg-seven,
+.technical-card-container>.roadmap-connection-svg-eight {
+    flex: 0 0 auto;
+    align-self: center;
 }
 
 .roadmap-connection-svg-one {
     width: 97px;
-   
+
     top: 50%;
     right: -29%;
 }
 
 .roadmap-connection-svg-two {
     width: 84px;
-   
+
     top: 50%;
     right: -28%;
 }
 
 .roadmap-connection-svg-four {
-    
+
     width: 84px;
     top: 50%;
     right: -27%;
@@ -1555,13 +1559,13 @@ nav {
 }
 
 .roadmap-connection-svg-seven {
- 
+
     top: 50%;
     right: -27%;
 }
 
 .roadmap-connection-svg-eight {
-    
+
     top: 50%;
     right: -27%;
 }
@@ -1606,12 +1610,12 @@ nav {
 }
 
 .roadmap-milestone-card {
-    width: 100%; 
+    width: 100%;
     border-radius: 0 12.97px 12.97px 12.97px;
     border: 2px solid #00B3E8;
     padding: 20px;
     background: #EBF9FF;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     z-index: 0;
 }
 
@@ -1804,9 +1808,9 @@ nav {
 }
 
 .partner-icon {
-    
-    
-    
+
+
+
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 32px;
@@ -1855,7 +1859,7 @@ nav {
     line-height: 120%;
     letter-spacing: 0%;
     text-align: start;
-    
+
     color: var(--font-primary-font-color);
     transform: rotate(-6deg);
     padding-left: 15%;
@@ -1889,6 +1893,7 @@ nav {
 
 
 }
+
 .team-member-description2 {
     font-family: var(--font-abz);
     font-weight: 400;
@@ -1896,7 +1901,7 @@ nav {
     line-height: 130%;
     letter-spacing: 0%;
     color: #38484E;
-   margin-top: 12px;
+    margin-top: 12px;
 
 }
 
@@ -2006,7 +2011,7 @@ footer {
     flex-direction: column;
     gap: 20px;
     padding-top: 196px;
-    
+
 }
 
 .logo-copyright img {
@@ -2033,7 +2038,7 @@ footer {
     display: flex;
     gap: 120px;
     padding-top: 178px;
-    
+
 }
 
 .footer-content-column {
@@ -2059,7 +2064,7 @@ footer {
     align-items: flex-end;
     gap: 29px;
     padding-top: 178px;
-    
+
 }
 
 .footer-social-icons-wrapper {
@@ -2082,10 +2087,10 @@ footer {
     width: 20px;
     height: 16px;
     opacity: 0.4;
-     transition: ease-in-out 0.4s;
+    transition: ease-in-out 0.4s;
 }
 
-.footer-social-icons-wrapper img:hover{
+.footer-social-icons-wrapper img:hover {
     transform: scale(1.05);
     opacity: 1;
 }
@@ -2111,9 +2116,9 @@ footer {
     .toggle-btn {
         display: flex;
         width: 26px;
-        
+
         z-index: 20;
-        
+
     }
 
     .nav-items {
@@ -2163,7 +2168,7 @@ footer {
         font-size: 14px;
     }
 
-    
+
     .hero {
         margin-top: -52px;
     }
@@ -2193,9 +2198,10 @@ footer {
         margin-top: 48px;
         margin-bottom: 20px;
     }
+
     .hero-com-btn {
-    gap: 6px;
-}
+        gap: 6px;
+    }
 
     .hero-community-button {
         width: 106.33px !important;
@@ -2276,7 +2282,7 @@ footer {
         left: 0%;
     }
 
-    
+
     .gamesta-dapp-container {
         max-width: 100%;
         padding: 256px 16px 70px 16px;
@@ -2348,7 +2354,7 @@ footer {
     .launch-status-container h6,
     .launch-quarter-box h6 {
         font-size: 8.34px;
-        
+
         height: 20.66px;
         text-align: center;
         padding-top: 5.37px;
@@ -2370,7 +2376,7 @@ footer {
     }
 
 
-    
+
     .future-container {
         max-width: 100%;
         padding: 0 16px 0 16px;
@@ -2470,7 +2476,7 @@ footer {
         margin-bottom: 0;
     }
 
-    
+
     .play2earn {
         max-width: 100%;
         padding: 0 16px;
@@ -2496,7 +2502,7 @@ footer {
     }
 
     .play-earn-heading-primary {
-        
+
         position: absolute;
         right: 0%;
         top: 3px;
@@ -2552,18 +2558,19 @@ footer {
         left: -25%;
     }
 
-    
+
     .game-title,
     .games-carousel-container {
         padding-left: 16px;
-                overflow-x: auto !important;
-                overflow-y: hidden;
-    }
-    .games-carousel-container{
-         padding-top: 20px;
+        overflow-x: auto !important;
+        overflow-y: hidden;
     }
 
-    
+    .games-carousel-container {
+        padding-top: 20px;
+    }
+
+
     .eco-container {
         max-width: 100%;
         padding: 0 16px;
@@ -2654,7 +2661,7 @@ footer {
         font-size: 12px;
     }
 
-    
+
     .distribution-container {
         max-width: 100%;
         padding: 0 16px;
@@ -2707,12 +2714,12 @@ footer {
         row-gap: 54px;
     }
 
-    
+
     .games-section-decoration-svg {
         display: none;
     }
 
-    
+
     .agency-container {
         max-width: 100%;
         padding: 016px;
@@ -2787,9 +2794,9 @@ footer {
         text-align: center;
     }
 
-    
 
-    
+
+
     .incubation {
         max-width: 100%;
         padding: 0 16px;
@@ -2822,11 +2829,12 @@ footer {
     .tick-list li::before {
         left: 16%
     }
-    .tick-list li {
-    font-size: 14px;
-}
 
-    
+    .tick-list li {
+        font-size: 14px;
+    }
+
+
     .black-container {
         max-width: 100%;
         padding: 0 54.56px 0;
@@ -2867,7 +2875,7 @@ footer {
         text-underline-offset: 3px;
     }
 
-    
+
     .technical-container {
         max-width: 100%;
         padding: 0 16px 0 16px;
@@ -2880,10 +2888,10 @@ footer {
     }
 
 
-    
+
 
     .roadmap-milestone-card {
-        
+
         padding: 5.69px 5.69px 5.38px 5.12px;
         border-radius: 0 3.79px 3.79px 3.79px;
     }
@@ -2916,7 +2924,7 @@ footer {
         border-radius: 0 3.79px 0 0;
     } */
 
-    
+
     .technical-container {
         max-width: 100%;
         padding: 0 10px;
@@ -2925,14 +2933,14 @@ footer {
     .roadmap-milestone-card {
         min-height: 100px;
     }
-    
+
 
     .tech-card {
-        flex: 1 1 calc(32% - 64px); 
+        flex: 1 1 calc(32% - 64px);
         min-width: 90px;
     }
 
-    
+
     .roadmap-connection-svg-one,
     .roadmap-connection-svg-two,
     .roadmap-connection-svg-four,
@@ -2943,19 +2951,20 @@ footer {
         right: -25%;
     }
 
-    .roadmap-connection-svg-three{
+    .roadmap-connection-svg-three {
         width: 80%;
         height: 38.27px;
         margin-left: 4%;
         margin-right: 1%;
         margin-top: -0.5%;
     }
+
     .roadmap-connection-svg-six {
         width: 80%;
         height: 66.61px;
         margin-left: 4%;
         margin-right: 1%;
-        
+
         margin-top: -4.5%;
     }
 
@@ -2985,7 +2994,7 @@ footer {
         top: 0%;
     }
 
-    
+
     .team-advise-partner {
         clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
     }
@@ -3011,7 +3020,7 @@ footer {
         margin-left: 0;
     }
 
-    
+
     .advisors-container {
         max-width: 100%;
         padding: 0 16px 0 16px;
@@ -3025,7 +3034,7 @@ footer {
         max-width: 100%;
     }
 
-    
+
     .partner {
         max-width: 100%;
         padding: 0 16px 0 16px;
@@ -3042,7 +3051,7 @@ footer {
         width: 100%;
     }
 
-    
+
     .blog-join {
         clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
         margin-top: 60px;
@@ -3077,7 +3086,7 @@ footer {
         max-height: 100%;
     }
 
-    
+
     .join {
         width: 344.66px;
         height: 130.96px;
@@ -3092,7 +3101,7 @@ footer {
     .community-container {
         max-width: 100%;
         margin-top: 0;
-        
+
         padding-bottom: 0;
     }
 
@@ -3101,7 +3110,7 @@ footer {
         font-size: 25.48px;
         max-width: 208px;
         margin: -42px auto 0 auto;
-        
+
     }
 
     .twitter-icon-image {
@@ -3131,7 +3140,7 @@ footer {
         display: none;
     }
 
-    
+
     footer {
         clip-path: polygon(0 11%, 33% 5%, 35% 10%, 100% 2%, 100% 16%, 100% 15%, 100% 100%, 82% 100%, 85% 100%, 15% 100%, 19% 100%, 0 100%);
         /* height: 375px; */
@@ -3141,8 +3150,8 @@ footer {
     .footer-container {
         flex-direction: column-reverse;
         padding: 0 16px 0 16px;
-        
-        
+
+
         position: relative;
     }
 
@@ -3204,15 +3213,14 @@ footer {
         height: auto;
     }
 
-    .hero-character-front{
+    .hero-character-front {
         margin-right: 0;
-        
-    }
-    .hero-decoration-orb{
-        
 
     }
-    .hero-background-abstract{
+
+    .hero-decoration-orb {}
+
+    .hero-background-abstract {
         width: 400px;
         right: 46%;
         top: 64%;
@@ -3273,7 +3281,7 @@ footer {
         font-size: 14px;
     }
 
-    
+
     .hero {
         margin-top: -14.5%;
     }
@@ -3317,7 +3325,7 @@ footer {
     }
 
     .hero-images-container img {
-       max-width: 80%;
+        max-width: 80%;
         left: 65px;
     }
 
@@ -3328,11 +3336,12 @@ footer {
         display: none;
     }
 
-    
 
-    .dapp-bg{
+
+    .dapp-bg {
         clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 99%);
     }
+
     .gamesta-dapp-container {
         max-width: 100%;
         padding: 333px 16px 70px 16px;
@@ -3378,7 +3387,7 @@ footer {
     }
 
     .dapp-launch-group-container {
-                width: 30%;
+        width: 30%;
         top: 23%;
         right: 3%;
     }
@@ -3400,7 +3409,7 @@ footer {
     }
 
 
-    
+
     .future-container {
         max-width: 100%;
         padding: 0 16px 0 16px;
@@ -3501,7 +3510,7 @@ footer {
         margin-bottom: 0;
     }
 
-    
+
     .play2earn {
         max-width: 100%;
         padding: 0 16px;
@@ -3524,7 +3533,7 @@ footer {
     }
 
     .play-earn-heading-secondary {
-        font-size:45px;
+        font-size: 45px;
     }
 
     .play-earn-info-subtitle {
@@ -3559,22 +3568,24 @@ footer {
         align-items: flex-end;
     }
 
-    
+
     .game-title,
     .games-carousel-container {
         padding-left: 16px;
     }
-     .game-title,
+
+    .game-title,
     .games-carousel-container {
         padding-left: 16px;
-                overflow-x: auto !important;
-                overflow-y: hidden;
-       
+        overflow-x: auto !important;
+        overflow-y: hidden;
+
     }
-    .games-carousel-container{
-         padding-top: 20px;
+
+    .games-carousel-container {
+        padding-top: 20px;
     }
-    
+
     .eco-container {
         max-width: 100%;
         padding: 0 16px;
@@ -3665,7 +3676,7 @@ footer {
         font-size: 12px;
     }
 
-    
+
     .distribution-container {
         max-width: 100%;
         padding: 0 16px;
@@ -3710,7 +3721,7 @@ footer {
         row-gap: 54px;
     }
 
-    
+
     .agency-container {
         max-width: 100%;
         padding: 016px;
@@ -3774,7 +3785,7 @@ footer {
         left: 30%;
     }
 
-    
+
     .incubation {
         max-width: 100%;
         padding: 0 16px;
@@ -3800,7 +3811,7 @@ footer {
         left: 16%
     }
 
-    
+
     .black-container {
         max-width: 100%;
         padding: 0 54.56px 0;
@@ -3842,7 +3853,7 @@ footer {
         text-underline-offset: 3px;
     }
 
-    
+
     .technical-container {
         max-width: 100%;
         padding: 0 16px 0 16px;
@@ -3856,8 +3867,8 @@ footer {
 
     .technical-card-container {
         max-width: 100%;
-        
-        
+
+
     }
 
     /* .tech-card {
@@ -3903,14 +3914,14 @@ footer {
         padding: 0 10px;
     }
 
-   
+
 
     .tech-card {
-        flex: 1 1 calc(32% - 64px); 
+        flex: 1 1 calc(32% - 64px);
         min-width: 120px;
     }
 
-    
+
     .roadmap-connection-svg-one,
     .roadmap-connection-svg-two,
     .roadmap-connection-svg-four,
@@ -3921,18 +3932,19 @@ footer {
         right: -25%;
     }
 
-    .roadmap-connection-svg-three{
+    .roadmap-connection-svg-three {
         width: 80%;
         margin-left: 4%;
         margin-right: 1%;
         margin-top: -3.5%;
     }
+
     .roadmap-connection-svg-six {
         width: 80%;
         height: 150px;
         margin-left: 4%;
         margin-right: 1%;
-        padding-top:30px ;
+        padding-top: 30px;
         margin-top: -3.5%;
     }
 
@@ -3946,11 +3958,11 @@ footer {
         max-height: 213px;
     }
 
-   .black-gamex-paragraph a{
-        padding-bottom: 5px !important; 
+    .black-gamex-paragraph a {
+        padding-bottom: 5px !important;
     }
 
-    
+
     .team-advise-partner {
         clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
     }
@@ -3985,7 +3997,7 @@ footer {
         margin-left: 0;
     }
 
-    
+
     .advisors-container {
         max-width: 100%;
         padding: 0 16px 0 16px;
@@ -4000,7 +4012,7 @@ footer {
         max-width: 100%;
     }
 
-    
+
     .partner {
         max-width: 100%;
         padding: 0 16px 0 16px;
@@ -4017,7 +4029,7 @@ footer {
         width: 100%;
     }
 
-    
+
     .blog-join {
         clip-path: polygon(0 0, 100% 1%, 100% 100%, 0% 100%);
         margin-top: 60px;
@@ -4051,7 +4063,7 @@ footer {
         max-height: 100%;
     }
 
-    
+
     .join {
         width: 344.66px;
         height: 100%;
@@ -4065,9 +4077,9 @@ footer {
     .community-container {
         max-width: 100%;
         margin-top: 0;
-        
-        
-        
+
+
+
     }
 
     .community {
@@ -4104,7 +4116,7 @@ footer {
         display: none;
     }
 
-    
+
     footer {
         clip-path: polygon(0 11%, 33% 5%, 35% 10%, 100% 2%, 100% 16%, 100% 15%, 100% 100%, 82% 100%, 85% 100%, 15% 100%, 19% 100%, 0 100%);
         /* height: 352px; */
@@ -4114,8 +4126,8 @@ footer {
     .footer-container {
         flex-direction: column-reverse;
         padding: 0 16px 0 16px;
-        
-        
+
+
         position: relative;
     }
 
@@ -4162,7 +4174,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 767px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
     nav {
         max-width: 100%;
         gap: 40px;
@@ -4183,7 +4195,7 @@ footer {
     }
 
     .hero {
-        
+
         height: 100%;
     }
 
@@ -4202,13 +4214,13 @@ footer {
         right: 12%;
     }
 
-    
+
     .blog-join {
         clip-path: polygon(0 1%, 17% -8%, 100% -113%, 100% 19%, 71% 13%, 100% 18%, 100% 100%, 84% 100%, 85% 100%, 50% 100%, 53% 100%, 0 100%);
     }
 
 
-    
+
     .dapp-bg {
         clip-path: polygon(0 0, 100% 0, 100% 99%, 0% 99%);
     }
@@ -4233,7 +4245,7 @@ footer {
     }
 
 
-    
+
     .future-container {
         max-width: 100%;
         padding: 0 10px;
@@ -4272,7 +4284,7 @@ footer {
         font-size: 14px;
     }
 
-    
+
     .play-bg {
         max-width: 100%;
     }
@@ -4309,7 +4321,7 @@ footer {
         width: 100%;
     }
 
-    
+
     .eco-container {
         max-width: 100%;
     }
@@ -4387,7 +4399,7 @@ footer {
         font-size: 12px;
     }
 
-    
+
     .distribution-container {
         max-width: 100%;
         padding: 0 10px;
@@ -4397,7 +4409,7 @@ footer {
         padding-top: 11%;
     }
 
-    
+
     .distribution-content-secondary img {
         max-width: 50%;
     }
@@ -4406,14 +4418,15 @@ footer {
         left: 25% !important;
         font-size: 18px;
     }
-    .percent-distribution-paragraph{
+
+    .percent-distribution-paragraph {
         font-size: 14px;
     }
 
-   .black-gamex-paragraph a{
-        padding-bottom: 5px !important; 
+    .black-gamex-paragraph a {
+        padding-bottom: 5px !important;
     }
-    
+
     .agency-container {
         max-width: 100%;
     }
@@ -4445,7 +4458,7 @@ footer {
         left: 1%;
     }
 
-    
+
     .incubation-section-title {
         font-size: 60px;
     }
@@ -4455,13 +4468,13 @@ footer {
         padding: 0 10px;
     }
 
-    
+
     .black-container {
         padding: 0 10px;
     }
 
 
-    
+
     .technical-container {
         max-width: 100%;
         padding: 0 10px;
@@ -4470,17 +4483,15 @@ footer {
     .roadmap-milestone-card {
         width: 100%;
     }
-    .technical-container {
-        
-        
-    }
+
+    .technical-container {}
 
     .tech-card {
-        flex: 1 1 calc(32% - 64px); 
+        flex: 1 1 calc(32% - 64px);
         min-width: 160px;
     }
 
-    
+
     .roadmap-connection-svg-one,
     .roadmap-connection-svg-two,
     .roadmap-connection-svg-four,
@@ -4491,15 +4502,16 @@ footer {
         right: -25%;
     }
 
-    .roadmap-connection-svg-three{
+    .roadmap-connection-svg-three {
         width: 754px;
         margin: 0 auto;
         margin-top: -1.5%;
     }
+
     .roadmap-connection-svg-six {
         width: 754px;
         height: 220px;
-        
+
         margin-left: auto;
         margin-right: auto;
         margin-top: -12.5%;
@@ -4507,9 +4519,9 @@ footer {
 
 
 
-    
 
-    
+
+
     .gamesta-card-container {
         max-width: 100%;
         padding: 0 10px;
@@ -4527,7 +4539,7 @@ footer {
         margin-top: 0;
     }
 
-    
+
     .advisors-container {
         max-width: 100%;
         padding: 0 10px;
@@ -4537,7 +4549,7 @@ footer {
         max-width: 60%;
     }
 
-    
+
     .partner {
         max-width: 100%;
         padding: 0 10px;
@@ -4683,7 +4695,7 @@ footer {
         max-width: 100%;
     }
 
-    
+
 
     .technical-container {
         padding: 0 10px;
@@ -4706,15 +4718,15 @@ footer {
 
     .technical-container {
         max-width: 1000px;
-        
+
     }
 
     .tech-card {
-        flex: 1 1 calc(32% - 64px); 
+        flex: 1 1 calc(32% - 64px);
         min-width: 160px;
     }
 
-    
+
     .roadmap-connection-svg-one,
     .roadmap-connection-svg-two,
     .roadmap-connection-svg-four,
@@ -4725,13 +4737,14 @@ footer {
         right: -25%;
     }
 
-    .roadmap-connection-svg-three{
+    .roadmap-connection-svg-three {
         width: 854px;
         margin: 0 auto;
     }
+
     .roadmap-connection-svg-six {
         width: 854px;
-        
+
         margin-left: auto;
         margin-right: auto;
         margin-top: -9.5%;
@@ -4744,15 +4757,16 @@ footer {
 
 @media only screen and (min-width: 1450px) and (max-width: 2560px) {
 
-     .play-earn-heading-secondary{
-            font-size: 129px;
-        }
+    .play-earn-heading-secondary {
+        font-size: 129px;
+    }
+
     .future-card-container {
         width: 1145px;
         padding-left: 80px;
         margin-bottom: 425px;
         display: flex;
-        
+
         position: relative;
     }
 
@@ -4769,66 +4783,82 @@ footer {
 
 /* more responsive */
 @media (max-width: 376px) {
-    .black-gamex-paragraph a{
-        padding-bottom: 7px !important; 
+    .black-gamex-paragraph a {
+        padding-bottom: 7px !important;
     }
-    .eco-para{
+
+    .eco-para {
         padding-bottom: 65px;
     }
-    .gsg-token-background-image{
+
+    .gsg-token-background-image {
         padding-top: 40px;
         padding-bottom: 30px;
     }
-    footer{
+
+    footer {
         height: 350px;
     }
 }
+
 @media (max-width: 330px) {
-       .hero-character-background{
-    top: 25px;
-   }
-    
-}
-@media (max-width:576px) {
-    .roadmap-connection-svg-six{
-        padding-top:20px ;
+    .hero-character-background {
+        top: 25px;
     }
-    .dapp-card-description{
+
+}
+
+@media (max-width:576px) {
+    .roadmap-connection-svg-six {
+        padding-top: 20px;
+    }
+
+    .dapp-card-description {
         font-size: 14px;
     }
-    .dapp-card-title{
+
+    .dapp-card-title {
         font-size: 24px;
     }
 }
 
 @media (max-width:1040px) {
-       .game-title,
+
+    .game-title,
     .games-carousel-container {
         padding-left: 16px;
-                overflow-x: auto !important;
-                overflow-y: hidden;
+        overflow-x: auto !important;
+        overflow-y: hidden;
     }
-    .games-carousel-container{
-         padding-top: 20px;
+
+    .games-carousel-container {
+        padding-top: 20px;
     }
 
 }
 
 @media (max-width:776px) {
-    .tech-card{width: 100%;}
+    .tech-card {
+        width: 100%;
+    }
 
     .technical-card-container {
-    display: flex;
-    flex-direction: column;
-}
-   .roadmap-milestone-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .roadmap-milestone-card {
         min-height: 150px;
     }
 
-    .technical-card-container > .roadmap-connection-svg-one, .technical-card-container > .roadmap-connection-svg-two,  .technical-card-container > .roadmap-connection-svg-four, .technical-card-container > .roadmap-connection-svg-five,  .technical-card-container > .roadmap-connection-svg-seven, .technical-card-container > .roadmap-connection-svg-eight {
-    transform: rotate(90deg);
-    padding-bottom: 40px;
-    padding-bottom: 40px;
+    .technical-card-container>.roadmap-connection-svg-one,
+    .technical-card-container>.roadmap-connection-svg-two,
+    .technical-card-container>.roadmap-connection-svg-four,
+    .technical-card-container>.roadmap-connection-svg-five,
+    .technical-card-container>.roadmap-connection-svg-seven,
+    .technical-card-container>.roadmap-connection-svg-eight {
+        transform: rotate(90deg);
+        padding-bottom: 40px;
+        padding-bottom: 40px;
+    }
 }
-}
-
