@@ -4910,3 +4910,52 @@ footer {
         padding-bottom: 40px;
     }
 }
+
+@media (max-width: 776px) {
+    .footer-container {
+        flex-direction: column-reverse;
+        position: relative;
+        padding-bottom: 110px;
+    }
+    .f-content-container {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .f-icon-btn {
+        width: 100%;
+        justify-content: center;
+        padding-top: 0;
+    }
+    .footer-social-icons-wrapper {
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+    .footer-desktop-button-container {
+        position: absolute;
+        bottom: 38px;
+        left: 46px;
+    }
+    .logo-copyright {
+        position: absolute;
+        bottom: 38px;
+        right: 90px;
+        padding: 0;
+    }
+    .logo-copyright img {
+        display: none;
+    }
+    .logo-copyright p {
+        text-align: right;
+        margin: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-desktop-button-container {
+        left: 16px;
+    }
+    .logo-copyright {
+        right: 16px;
+        padding-left: 0;
+    }
+}
