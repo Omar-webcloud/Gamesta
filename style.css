@@ -4967,3 +4967,12 @@ footer {
         padding-left: 0;
     }
 }
+
+@media only screen and (min-width: 1950px) and (max-width: 2760px){
+    .hero-images-container{
+     right: 23%;
+    }
+    .hero-background-abstract{
+        right: 25%;
+    }
+}
