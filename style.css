@@ -1886,11 +1886,12 @@ nav {
 .blog-post-date {
     font-family: var(--font-abz);
     font-weight: 400;
-    font-style: Regular;
     font-size: 14px;
     line-height: 130%;
     letter-spacing: 0%;
     color: #9BA1A4;
+    margin-top: 8px;
+    margin-bottom: 12px;
 
 
 }
