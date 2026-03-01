@@ -4923,7 +4923,7 @@ footer {
     .footer-container {
         flex-direction: column-reverse;
         position: relative;
-        padding-bottom: 110px;
+        padding-bottom: 125px;
     }
     .f-content-container {
         width: 100%;
