@@ -1886,11 +1886,12 @@ nav {
 .blog-post-date {
     font-family: var(--font-abz);
     font-weight: 400;
-    font-style: Regular;
     font-size: 14px;
     line-height: 130%;
     letter-spacing: 0%;
     color: #9BA1A4;
+    margin-top: 8px;
+    margin-bottom: 12px;
 
 
 }
@@ -2127,7 +2128,9 @@ footer {
         top: 70%;
         right: 0;
         width: 50%;
-        background: rgba(2, 97, 97, 0.685);
+        background: rgba(2, 97, 97, 0.485);
+        backdrop-filter: blur(1.5px);
+        border: 0.5px #ffffff24 solid;
         flex-direction: column;
         align-items: center;
         gap: 20px;
@@ -3179,7 +3182,14 @@ footer {
 
     .community-decoration-svg-one,
     .community-decoration-svg-two {
-        display: none;
+        width: 160px;
+    }
+    .community-decoration-svg-one{
+        top: 9%;
+    }
+    .community-decoration-svg-two{
+        bottom: 12%;
+    right: -31.25%;
     }
 
 
@@ -3282,7 +3292,9 @@ footer {
         right: 0;
         width: 50%;
         height: fit-content;
-        background: rgba(2, 97, 97, 0.685);
+        background: rgba(2, 97, 97, 0.485);
+        backdrop-filter: blur(1.5px);
+        border: 0.5px #ffffff24 solid;
         flex-direction: column;
         align-items: center;
         gap: 20px;
@@ -4915,7 +4927,7 @@ footer {
     .footer-container {
         flex-direction: column-reverse;
         position: relative;
-        padding-bottom: 110px;
+        padding-bottom: 125px;
     }
     .f-content-container {
         width: 100%;
@@ -4927,8 +4939,8 @@ footer {
         padding-top: 0;
     }
     .footer-social-icons-wrapper {
-        padding-top: 0;
-        margin-bottom: 40px;
+       padding-top: 70px;
+        /* margin-bottom: 40px; */
     }
     .footer-desktop-button-container {
         position: absolute;
@@ -4957,5 +4969,14 @@ footer {
     .logo-copyright {
         right: 16px;
         padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 1950px) and (max-width: 2760px){
+    .hero-images-container{
+     right: 23%;
+    }
+    .hero-background-abstract{
+        right: 25%;
     }
 }
